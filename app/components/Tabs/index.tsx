@@ -33,14 +33,14 @@ const Tabs = ({ info }: { info: ITab[] }) => {
 	};
 
 	return (
-		<div>
+		<>
 			<ul className='flex items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14'>
 				{renderHeading()}
 			</ul>
 
 			{activeTabContent && (
 				<motion.ul
-					initial={{ y: 20, opacity: 0 }}
+					initial={{ y: 100, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
 					transition={{ type: 'easeIn', duration: 0.5 }}
 					className='tab__content'>
@@ -51,7 +51,7 @@ const Tabs = ({ info }: { info: ITab[] }) => {
 					))}
 				</motion.ul>
 			)}
-		</div>
+		</>
 	);
 };
 
