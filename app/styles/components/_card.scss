@@ -1,0 +1,13 @@
+.card {
+	&__image {
+		@apply w-full object-fill h-[200px] bg-cover rounded-t-lg hover:rounded-t-[33px] hover:scale-105 transition-all;
+	}
+
+	&__body {
+		@apply p-5;
+
+		&--info {
+			@apply flex justify-between items-center mb-6;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.marquee {
+	&-element {
+		@apply mr-2;
+		@apply md:mr-6;
+	}
+
+	&-image {
+		@apply w-[180px] h-[100px] bg-cover object-cover mr-2 rounded-md;
+		@apply md:w-[280px] md:h-[180px] md:mr-6;
+	}
+}

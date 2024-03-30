@@ -1,0 +1,20 @@
+@layer base {
+	.main-container {
+		@apply max-w-[1300px] mx-auto w-full;
+	}
+
+	.wrapper {
+		@apply px-3 2xl:px-0;
+	}
+
+	.section {
+		@apply px-2 mb-10;
+		@apply 2xl:px-0;
+	}
+}
+
+@layer components {
+	.primary-title {
+		@apply text-4xl font-bold tracking-wide uppercase text-white/80 mb-6;
+	}
+}

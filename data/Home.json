@@ -1,0 +1,63 @@
+{
+	"MARQUEE": [
+		{
+			"src": "/images/disney.webp",
+			"secondary": "/images/disney-logo.webp",
+			"alt": "Disney"
+		},
+		{
+			"src": "/images/netflix.webp",
+			"secondary": "/images/Netflix-Logo.webp",
+			"alt": "Netflix"
+		},
+		{
+			"src": "/images/star-plus.webp",
+			"alt": "Star Plus"
+		},
+		{
+			"src": "/images/hbo.webp",
+			"alt": "HBO MAX"
+		}
+	],
+	"TABS": [
+		{
+			"id": 0,
+			"heading": "INDIVIDUAL",
+			"cards": [
+				{
+					"image": { "src": "/images/hbo.webp", "alt": "HBO MAX" },
+					"title": "HBO Max",
+					"price": "120"
+				},
+				{
+					"image": { "src": "/images/disney.webp", "alt": "Disney", "cardImage": "/images/cards/disney.jpeg" },
+					"title": "Disney +",
+					"price": "180"
+				},
+				{
+					"image": { "src": "/images/netflix.webp", "alt": "Netflix", "cardImage": "/images/cards/netflix.jpg" },
+					"title": "Netflix",
+					"price": "140"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"heading": "COMBO",
+			"cards": [
+				{ "image": { "src": "/images/disney.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" },
+				{ "image": { "src": "/images/netflix.webp", "alt": "Disney" }, "title": "Netflix", "price": "180" },
+				{ "image": { "src": "/images/disney.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" }
+			]
+		},
+		{
+			"id": 3,
+			"heading": "Otros",
+			"cards": [
+				{ "image": { "src": "/images/netflix.webp", "alt": "Disney" }, "title": "Netflix", "price": "180" },
+				{ "image": { "src": "/images/disney.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" },
+				{ "image": { "src": "/images/hbo.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" }
+			]
+		}
+	]
+}
