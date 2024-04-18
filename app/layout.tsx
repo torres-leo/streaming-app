@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import { Inter, Open_Sans } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 
-import Header from '@/app/components/Header';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import './globals.scss';
 
-const inter = Inter({ subsets: ['latin'] });
+import Header from '@/src/components/Header';
+
 const openSans = Open_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {

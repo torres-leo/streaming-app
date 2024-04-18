@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
-import { ITab } from '@/app/models/tab';
-import Card from '@/app/components/Card';
+import { ITab } from '@/src/models/tab';
+import Card from '../Card';
 
 const Tabs = ({ info }: { info: ITab[] }) => {
 	const [activeTab, setActiveTab] = useState(0);

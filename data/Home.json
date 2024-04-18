@@ -15,8 +15,8 @@
 			"alt": "Star Plus"
 		},
 		{
-			"src": "/images/hbo.webp",
-			"alt": "HBO MAX"
+			"src": "/images/max.webp",
+			"alt": "MAX"
 		}
 	],
 	"TABS": [
@@ -25,9 +25,9 @@
 			"heading": "INDIVIDUAL",
 			"cards": [
 				{
-					"image": { "src": "/images/hbo.webp", "alt": "HBO MAX" },
-					"title": "HBO Max",
-					"price": "120"
+					"image": { "src": "/images/netflix.webp", "alt": "Netflix", "cardImage": "/images/cards/netflix.jpg" },
+					"title": "Netflix",
+					"price": "140"
 				},
 				{
 					"image": { "src": "/images/disney.webp", "alt": "Disney", "cardImage": "/images/cards/disney.jpeg" },
@@ -35,9 +35,14 @@
 					"price": "180"
 				},
 				{
-					"image": { "src": "/images/netflix.webp", "alt": "Netflix", "cardImage": "/images/cards/netflix.jpg" },
-					"title": "Netflix",
-					"price": "140"
+					"image": { "src": "/images/disney.webp", "alt": "Disney", "cardImage": "/images/cards/disney.jpeg" },
+					"title": "Star +",
+					"price": "180"
+				},
+				{
+					"image": { "src": "/images/max.webp", "alt": "HBO MAX" },
+					"title": "HBO Max",
+					"price": "120"
 				}
 			]
 		},
@@ -56,7 +61,7 @@
 			"cards": [
 				{ "image": { "src": "/images/netflix.webp", "alt": "Disney" }, "title": "Netflix", "price": "180" },
 				{ "image": { "src": "/images/disney.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" },
-				{ "image": { "src": "/images/hbo.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" }
+				{ "image": { "src": "/images/max.webp", "alt": "Disney" }, "title": "Disney +", "price": "180" }
 			]
 		}
 	]

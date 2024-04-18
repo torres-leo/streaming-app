@@ -1,4 +1,4 @@
-import { Card } from '@/app/models/tab';
+import { Card } from '@/src/models/tab';
 import Image from 'next/image';
 
 const Card = ({ item }: { item: Card }) => {
