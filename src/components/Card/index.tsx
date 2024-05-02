@@ -1,7 +1,7 @@
 import { Card } from '@/src/models/tab';
 import Image from 'next/image';
 
-const Card = ({ item }: { item: Card }) => {
+const CardComponent = ({ item }: { item: Card }) => {
 	return (
 		<div className='w-full border rounded-lg shadow bg-gray-800 border-gray-500'>
 			<div className='border-b border-gray-600 overflow-hidden'>
@@ -23,7 +23,9 @@ const Card = ({ item }: { item: Card }) => {
 					</p>
 				</div>
 				<a
-					href='#'
+					href='https://wa.me/50589923583?text=Hola%20quiero%20saber%20mas%20de%20este%20servicio%20de%20streaming'
+					target='_blank'
+					rel='noreferrer noopener'
 					className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800'>
 					Read more
 					<svg
@@ -46,4 +48,4 @@ const Card = ({ item }: { item: Card }) => {
 	);
 };
 
-export default Card;
+export default CardComponent;
