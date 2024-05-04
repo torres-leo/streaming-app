@@ -1,7 +1,7 @@
 .header {
 	@apply bg-[#005EDC] mb-12 shadow-lg shadow-black/50 dark:shadow-white/40;
 
-	.wrapper {
-		@apply flex items-center justify-between;
+	&-wrapper {
+		@apply flex items-center gap-x-6 justify-center;
 	}
 }

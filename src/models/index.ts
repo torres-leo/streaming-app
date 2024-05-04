@@ -1,9 +1,3 @@
-export interface ITab {
-	id: number;
-	heading: string;
-	cards: Card[];
-}
-
 export type Card = {
 	id: number;
 	category: string;
@@ -11,6 +5,7 @@ export type Card = {
 	price: string;
 	subtitle?: string;
 	title: string;
+	slug: string;
 };
 
 type CardImage = {

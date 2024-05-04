@@ -1,29 +1,44 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
-import cardsInfo from '@/data/cards.json';
-import { motion } from 'framer-motion';
+import { useEffect } from 'react';
+import { cardsInfo } from '@/data/cards';
 
 import { Card } from '@/src/models';
 
-import CardComponent from '../Card';
+import { useGlobalStore } from '@/src/store/global';
+import { isMobile } from '@/src/utils';
 
 type TabsProps = {
 	elements: string[];
 };
 
 const Tabs = ({ elements }: TabsProps) => {
-	const [activeTab, setActiveTab] = useState(elements[0]);
-	const [cardList, setCardList] = useState<Card[] | null>(null);
+	const { activeTab, setActiveTab, setCardList, setLoading } = useGlobalStore();
 
 	const handleClick = (item: string) => {
+		if (item === activeTab) return;
+
+		setCardList([]);
 		setActiveTab(item);
-		setCardList(null);
+		scrollToTabs();
 	};
 
 	useEffect(() => {
-		setCardList(cardsInfo.filter((card: Card) => card.category === activeTab) || null);
+		setLoading(true);
+		setTimeout(() => {
+			setCardList(cardsInfo.filter((card: Card) => card.category === activeTab) || []);
+			setLoading(false);
+		}, 550);
+
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [activeTab]);
+
+	const scrollToTabs = () => {
+		window.scrollTo({
+			top: isMobile() ? 450 : 500,
+			behavior: 'smooth',
+		});
+	};
 
 	const renderTabs = () => {
 		return elements.map((item, idx) => (
@@ -39,25 +54,11 @@ const Tabs = ({ elements }: TabsProps) => {
 	};
 
 	return (
-		<>
-			<ul className='flex items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14'>
-				{renderTabs()}
-			</ul>
-
-			{cardList && (
-				<motion.ul
-					initial={{ y: 100, opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{ type: 'easeIn', duration: 0.5 }}
-					className={`tab__content ${cardList.length === 0 ? 'grid-cols-1' : ''}`}>
-					{cardList.map((card) => (
-						<li key={card.title} className='max-w-[310px] w-full'>
-							<CardComponent item={card} />
-						</li>
-					))}
-				</motion.ul>
-			)}
-		</>
+		<ul
+			id='tabs'
+			className='flex items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14'>
+			{renderTabs()}
+		</ul>
 	);
 };
 

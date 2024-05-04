@@ -8,7 +8,7 @@ const Header = () => {
 	return (
 		<header className='header'>
 			<div className='main-container'>
-				<div className='wrapper pt-2 pb-2'>
+				<div className='header-wrapper pt-2 pb-2'>
 					<Link
 						href='/'
 						className='border-[2px] border-yellow-300/50 hover:border-[2px] hover:border-yellow-300/70 rounded-full inline-block transition hover:scale-105'>
@@ -22,6 +22,9 @@ const Header = () => {
 						/>
 					</Link>
 
+					<Link href='/' className='font-semibold'>
+						Inicio
+					</Link>
 					{/* <div className='flex items-center gap-x-2'>
 						<p className='font-bold tracking-wide text-sm'>Inicia sesión</p>
 						<FontAwesomeIcon icon={faUser} className='text-sm' />

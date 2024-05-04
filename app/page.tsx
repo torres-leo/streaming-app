@@ -3,6 +3,7 @@ import HomeInfo from '@/data/Home.json';
 import Section from '@/src/components/SectionContainer';
 import Tabs from '@/src/components/Tabs';
 import MarqueeImages from '@/src/components/Marquee';
+import CardList from '@/src/components/Card/List';
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 
 			<Section customClass='streaming' title='Servicios de Streaming'>
 				<Tabs elements={HomeInfo.TABS} />
+				<CardList />
 			</Section>
 		</>
 	);
