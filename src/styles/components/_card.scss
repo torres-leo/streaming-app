@@ -1,6 +1,6 @@
 .card {
 	&__image {
-		@apply w-full object-fill h-[200px] bg-cover rounded-t-lg hover:rounded-t-[33px] hover:scale-105 transition-all;
+		@apply w-full h-[200px] bg-cover object-cover rounded-t-lg hover:rounded-3xl hover:scale-105 transition-all overflow-hidden;
 	}
 
 	&__body {
@@ -15,7 +15,8 @@
 .cards {
 	&__list {
 		@apply grid grid-cols-1 gap-y-10 place-items-center;
-		@apply md:grid-cols-2 md:gap-6;
-		@apply lg:grid-cols-3 lg:gap-y-20 lg:gap-x-2;
+		@apply sm:grid-cols-2 sm:gap-x-4;
+		@apply md:grid-cols-3 md:gap-6;
+		@apply lg:grid-cols-3 lg:gap-y-20 lg:gap-x-4;
 	}
 }

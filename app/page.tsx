@@ -16,7 +16,7 @@ export default function Home() {
 				<MarqueeImages info={HomeInfo.MARQUEE} />
 			</Section>
 
-			<Section customClass='streaming' title='Servicios de Streaming'>
+			<Section customClass='streaming mb-20' title='Servicios de Streaming'>
 				<Tabs elements={HomeInfo.TABS} />
 				<CardList />
 			</Section>

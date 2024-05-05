@@ -11,5 +11,5 @@ export type Card = {
 type CardImage = {
 	src: string;
 	alt: string;
-	cardImage?: string;
+	// cardImage?: string;
 };

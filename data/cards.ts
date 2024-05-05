@@ -5,8 +5,7 @@ const cards = [
 		id: 1,
 		image: {
 			src: '/images/netflix.webp',
-			alt: 'Netflix',
-			cardImage: '/images/cards/netflix.jpg',
+			alt: 'Disney + | Star + | Paramount +',
 		},
 		title: 'Combo plus',
 		subtitle: 'Disney + | Star + | Paramount +',
@@ -17,8 +16,7 @@ const cards = [
 		id: 2,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Disney + | Star +',
 		},
 		title: 'Disney + | Star +',
 		price: '180',
@@ -28,8 +26,7 @@ const cards = [
 		id: 3,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Star + | IPTV | Paramount +',
 		},
 		title: 'Combo deportes',
 		subtitle: 'Star + | IPTV | Paramount +',
@@ -40,8 +37,7 @@ const cards = [
 		id: 4,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Netflix',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Netflix',
@@ -52,8 +48,7 @@ const cards = [
 		id: 5,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Disney +',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Disney +',
@@ -64,8 +59,7 @@ const cards = [
 		id: 6,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Star +',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Star +',
@@ -76,8 +70,7 @@ const cards = [
 		id: 7,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Prime Video',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Prime Video',
@@ -88,8 +81,7 @@ const cards = [
 		id: 8,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Spotify Premium',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Spotify Premium',
@@ -100,8 +92,7 @@ const cards = [
 		id: 9,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Crunchyroll',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Crunchyroll',
@@ -112,8 +103,7 @@ const cards = [
 		id: 10,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Youtube Premium',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Youtube Premium',
@@ -124,8 +114,7 @@ const cards = [
 		id: 11,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & IPTV',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & IPTV',
@@ -136,8 +125,7 @@ const cards = [
 		id: 12,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Paramount +',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Paramount +',
@@ -145,11 +133,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 12,
+		id: 13,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Max & Vix Plus',
 		},
 		title: 'Duo MAX',
 		subtitle: 'MAX & Vix Plus',
@@ -157,11 +144,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 13,
+		id: 14,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV & Netflix',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Netflix',
@@ -169,11 +155,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 14,
+		id: 15,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV & Disney +',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Disney +',
@@ -181,11 +166,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 15,
+		id: 16,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV & Star +',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Star +',
@@ -193,11 +177,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 16,
+		id: 17,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV & MAX',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & MAX',
@@ -205,11 +188,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 17,
+		id: 18,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV & Prime Video',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Prime Video',
@@ -217,11 +199,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 18,
+		id: 19,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPtV & Spotify Premium',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Spotify Premium',
@@ -229,11 +210,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 19,
+		id: 20,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPtV & Youtube Premium',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Youtube Premium',
@@ -241,11 +221,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 20,
+		id: 21,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPtV & Paramount Plus',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Paramount Plus',
@@ -253,23 +232,10 @@ const cards = [
 		category: 'duos',
 	},
 	{
-		id: 21,
-		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
-		},
-		title: 'Duo IPTV',
-		subtitle: 'IPTV & Crunchyroll',
-		price: '220',
-		category: 'duos',
-	},
-	{
 		id: 22,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPtV & Crunchyroll',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Crunchyroll',
@@ -280,8 +246,7 @@ const cards = [
 		id: 23,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPtV & Vix Plus',
 		},
 		title: 'Duo IPTV',
 		subtitle: 'IPTV & Vix Plus',
@@ -292,8 +257,7 @@ const cards = [
 		id: 24,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix | IPTV | MAX | Disney +',
 		},
 		title: 'Netflix | IPTV | MAX | Disney +',
 		price: '390',
@@ -303,8 +267,7 @@ const cards = [
 		id: 25,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix | IPTV | MAX',
 		},
 		title: 'Netflix | IPTV | MAX',
 		price: '330',
@@ -314,8 +277,7 @@ const cards = [
 		id: 26,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix | Spotify Premium | MAX',
 		},
 		title: 'Netflix | Spotify Premium | MAX',
 		price: '300',
@@ -325,8 +287,7 @@ const cards = [
 		id: 27,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Disney +',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Disney +',
@@ -337,8 +298,7 @@ const cards = [
 		id: 28,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Star +',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Star +',
@@ -349,8 +309,7 @@ const cards = [
 		id: 29,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & MAX',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & MAX',
@@ -361,8 +320,7 @@ const cards = [
 		id: 30,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Youtube Premium',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Youtube Premium',
@@ -373,8 +331,7 @@ const cards = [
 		id: 31,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Spotify Premium',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Spotify Premium',
@@ -385,8 +342,7 @@ const cards = [
 		id: 32,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Prime Video',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Prime Video',
@@ -397,8 +353,7 @@ const cards = [
 		id: 33,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & IPTV',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & IPTV',
@@ -409,8 +364,7 @@ const cards = [
 		id: 34,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Crunchyroll',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Crunchyroll',
@@ -421,8 +375,7 @@ const cards = [
 		id: 35,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Paramount +',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Paramount +',
@@ -433,8 +386,7 @@ const cards = [
 		id: 36,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Vix Plus',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Vix Plus',
@@ -445,8 +397,7 @@ const cards = [
 		id: 37,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'Netflix & Canva Pro',
 		},
 		title: 'Duo NETFLIX',
 		subtitle: 'Netflix & Canva Pro',
@@ -456,9 +407,8 @@ const cards = [
 	{
 		id: 38,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/netflix.webp',
+			alt: 'NETFLIX',
 		},
 		title: 'NETFLIX',
 		price: '160',
@@ -467,9 +417,8 @@ const cards = [
 	{
 		id: 39,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/disney.webp',
+			alt: 'DISNEY +',
 		},
 		title: 'DISNEY +',
 		price: '100',
@@ -478,9 +427,8 @@ const cards = [
 	{
 		id: 40,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/starplus.webp',
+			alt: 'STAR +',
 		},
 		title: 'STAR +',
 		price: '120',
@@ -489,9 +437,8 @@ const cards = [
 	{
 		id: 41,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/max.webp',
+			alt: 'MAX +',
 		},
 		title: 'MAX +',
 		price: '100',
@@ -500,9 +447,8 @@ const cards = [
 	{
 		id: 42,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/youtube.webp',
+			alt: 'YOUTUBE PREMIUM',
 		},
 		title: 'YOUTUBE PREMIUM',
 		price: '130',
@@ -511,75 +457,68 @@ const cards = [
 	{
 		id: 43,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/spotify.webp',
+			alt: 'SPOTIFY PREMIUM',
 		},
 		title: 'SPOTIFY PREMIUM',
 		price: '130',
 		category: 'individual',
 	},
 	{
-		id: 43,
+		id: 44,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/prime-video.webp',
+			alt: 'AMAZON PRIME VIDEO',
 		},
 		title: 'AMAZON PRIME VIDEO',
 		price: '100',
 		category: 'individual',
 	},
 	{
-		id: 44,
+		id: 45,
 		image: {
 			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			alt: 'IPTV',
 		},
 		title: 'IPTV',
 		price: '180',
 		category: 'individual',
 	},
 	{
-		id: 45,
+		id: 46,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/crunchy.webp',
+			alt: 'CRUNCHYROLL',
 		},
 		title: 'CRUNCHYROLL',
 		price: '100',
 		category: 'individual',
 	},
 	{
-		id: 46,
+		id: 47,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/paramount.webp',
+			alt: 'PARAMOUNT PLUS',
 		},
 		title: 'PARAMOUNT PLUS',
 		price: '100',
 		category: 'individual',
 	},
 	{
-		id: 47,
+		id: 48,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/vix.webp',
+			alt: 'VIX PLUS',
 		},
 		title: 'VIX PLUS',
 		price: '100',
 		category: 'individual',
 	},
 	{
-		id: 48,
+		id: 49,
 		image: {
-			src: '/images/disney.webp',
-			alt: 'Disney',
-			cardImage: '/images/cards/disney.jpeg',
+			src: '/images/cards/canva.webp',
+			alt: 'CANVA PRO',
 		},
 		title: 'CANVA PRO',
 		price: '120',

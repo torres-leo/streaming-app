@@ -1,12 +1,10 @@
-const Section = ({
-	children,
-	title,
-	customClass,
-}: {
+type SectionProps = {
 	children: React.ReactNode;
 	title?: string;
 	customClass: string;
-}) => {
+};
+
+export default function Section({ children, title, customClass }: SectionProps) {
 	const renderTitle = () => {
 		if (!title) return;
 
@@ -19,6 +17,4 @@ const Section = ({
 			<div className='section__wrapper'>{children}</div>
 		</section>
 	);
-};
-
-export default Section;
+}

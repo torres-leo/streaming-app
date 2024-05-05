@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SkeletonCard = () => {
+const SkeletonCard = ({ className }: { className: string }) => {
 	return (
-		<div role='status' className='max-w-sm border border-gray-500 rounded-lg shadow animate-pulse'>
+		<div role='status' className={`w-full border border-gray-500 rounded-lg shadow animate-pulse ${className}`}>
 			<div className='flex items-center justify-center h-48 mb-4 bg-gray-300/30 rounded'>
 				<svg
-					className='w-10 h-10 text-gray-200 text-gray-600'
+					className='w-10 h-10 text-gray-200'
 					aria-hidden='true'
 					xmlns='http://www.w3.org/2000/svg'
 					fill='currentColor'
