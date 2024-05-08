@@ -1,12 +1,20 @@
 import { Card } from '@/src/models';
+import { useGlobalStore } from '@/src/store/global';
 import Image from 'next/image';
 
 const CardComponent = ({ item }: { item: Card }) => {
+	const { cardList } = useGlobalStore();
+
 	return (
-		<article className='w-full border rounded-lg shadow bg-gray-800 border-gray-500'>
-			<div className='border-b border-gray-600 overflow-hidden relative w-full h-[190px]'>
+		<article className='border rounded-lg shadow bg-gray-800 border-gray-500'>
+			<div
+				className={`border-b border-gray-600 overflow-hidden relative ${
+					cardList.length > 12 ? 'h-[230px]' : 'h-[200px]'
+				}`}>
 				<Image
-					className='card__image'
+					className={`card__image 
+					${item.title.toLocaleLowerCase() === 'iptv' && 'rounded-3xl scale-105 hover:scale-110'}
+					`}
 					// src={item.image.cardImage ?? item.image.src}
 					src={item.image.src}
 					alt={item.image.alt}
@@ -14,7 +22,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 					fill
 				/>
 			</div>
-			<div className={`card__body ${item.subtitle ? 'h-[150px]' : 'h-32'}`}>
+			<div className={`card__body ${item.subtitle ? 'h-[160px]' : 'h-[135px]'}`}>
 				<div className='card__body--info'>
 					<div className='flex  items-center justify-between mb-2 w-full'>
 						<h4 className='text-base leading-5 md:text-lg md:text-balance md:leading-[22px] font-semibold uppercase text-white/90'>
@@ -33,7 +41,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 						href='https://wa.me/50589923583?text=Hola%20quiero%20saber%20mas%20de%20este%20servicio%20de%20streaming'
 						target='_blank'
 						rel='noreferrer noopener'
-						className='inline-flex outline-none items-center px-2.5 border border-white py-1.5 text-sm font-medium text-center text-white rounded-md focus:outline-none  bg-blue-600 hover:bg-blue-700 transition-all'>
+						className='inline-flex outline-none items-center px-2.5 border border-white py-1.5 text-sm font-medium text-center text-white rounded-md focus:outline-none  bg-black hover:bg-black/20 transition-all'>
 						Leer más
 						<svg
 							className='rtl:rotate-180 w-3.5 h-3.5 ms-2'

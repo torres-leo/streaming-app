@@ -21,6 +21,8 @@ const Tabs = ({ elements }: TabsProps) => {
 		setCardList([]);
 		setActiveTab(item);
 		scrollToTabs();
+
+		localStorage.setItem('activeTab', item);
 	};
 
 	useEffect(() => {

@@ -27,7 +27,7 @@ export default function CardList() {
 					cardList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
 				}`}>
 				{cardList?.map((card) => (
-					<li key={card.title} className='max-w-[335px] w-full'>
+					<li key={card.title} className={`${cardList.length > 12 ? 'max-w-[290px]' : 'max-w-[335px]'} w-full`}>
 						<Link href={`streaming/${card.slug}`}>
 							<CardComponent item={card} />
 						</Link>
