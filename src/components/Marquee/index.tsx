@@ -63,12 +63,12 @@ export default function MarqueeImages({ info }: { info: MarqueeImagesProps[] }) 
 	};
 
 	return (
-		<div className='relative'>
+		<div className='relative select-none'>
 			<Marquee speed={30} autoFill className=''>
 				{renderImages()}
 			</Marquee>
 
-			<div className='absolute top-0 blur-xl'>
+			<div className='absolute select-none top-0 blur-xl'>
 				<Marquee speed={30} autoFill>
 					{renderImages()}
 				</Marquee>

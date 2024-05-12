@@ -12,7 +12,7 @@ const Header = () => {
 	const isOnStreamingPage = path.includes('streaming');
 
 	return (
-		<header className={`header ${isOnStreamingPage && isMobile() ? 'sticky top-0' : ''}`}>
+		<header className={`header select-none ${isOnStreamingPage && isMobile() ? 'sticky top-0' : ''}`}>
 			<div className='main-container'>
 				<div className='header-wrapper pt-2 pb-2'>
 					<div className='flex gap-x-4 items-center'>
@@ -29,14 +29,10 @@ const Header = () => {
 							/>
 						</Link>
 
-						{path === '/' && <p className='text-lg font-bold tracking-wide uppercase'>Pez Streaming</p>}
-					</div>
-
-					{path !== '/' && (
-						<Link href='/' className='text-lg font-semibold tracking-wide uppercase'>
-							Inicio
+						<Link href='/'>
+							<p className='text-lg font-bold tracking-wide uppercase pointer-events-none'>Pez Streaming</p>
 						</Link>
-					)}
+					</div>
 				</div>
 			</div>
 		</header>

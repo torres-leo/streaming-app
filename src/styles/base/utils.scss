@@ -4,7 +4,7 @@
 	}
 
 	.wrapper {
-		@apply px-4 2xl:px-0;
+		@apply px-8 2xl:px-0;
 	}
 
 	.section {
@@ -18,5 +18,33 @@
 		@apply text-xl font-bold tracking-wide uppercase text-white/80 mb-6 text-center;
 		@apply sm:text-2xl;
 		@apply md:text-3xl md:text-left;
+	}
+}
+
+.scroll-tabs {
+	animation: blur linear both;
+	animation-timeline: scroll();
+	animation-range: 0 1000px;
+}
+
+@keyframes blur {
+	to {
+		box-shadow: 0 5px 50px -5px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(0, 0, 0, 0.7);
+		background: rgba(0, 0, 0, 0.7);
+		backdrop-filter: blur(20px);
+		transform: translateY(10px);
+		border: 2px solid rgb(99, 223, 116);
+		width: 100%;
+	}
+}
+
+@keyframes animateIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }

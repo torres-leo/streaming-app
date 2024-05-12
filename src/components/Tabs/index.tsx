@@ -58,7 +58,7 @@ const Tabs = ({ elements }: TabsProps) => {
 	return (
 		<ul
 			id='tabs'
-			className='flex items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14'>
+			className='flex scroll-tabs sticky z-10 top-4 xl:animate-none xl:relative items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14'>
 			{renderTabs()}
 		</ul>
 	);
