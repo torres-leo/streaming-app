@@ -1,6 +1,7 @@
 import { Card } from '@/src/models';
 import { useGlobalStore } from '@/src/store/global';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CardComponent = ({ item }: { item: Card }) => {
 	const { cardList } = useGlobalStore();
@@ -8,7 +9,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 	return (
 		<article className='border rounded-lg shadow bg-gray-800 border-gray-500'>
 			<div
-				className={`border-b select-none border-gray-600 overflow-hidden relative ${
+				className={`border-b-2 select-none border-gray-600 overflow-hidden relative ${
 					cardList.length > 12 ? 'h-[230px]' : 'h-[200px]'
 				}`}>
 				<Image
@@ -22,11 +23,10 @@ const CardComponent = ({ item }: { item: Card }) => {
 					fill
 				/>
 			</div>
-			{/* <div className={`card__body ${item.subtitle ? 'h-[160px]' : 'h-[135px]'}`}> */}
 			<div className={`card__body`}>
 				<div className={`card__body--info ${!item.subtitle && 'mb-0'}`}>
 					<div className='flex flex-col items-start gap-y-2 w-full mb-4'>
-						<h4 className='text-base leading-5 md:text-xl md:text-balance md:leading-[22px] font-semibold uppercase text-white/90'>
+						<h4 className='text-base leading-5 md:text-lg md:text-balance md:leading-[22px] lg:text-xl font-semibold uppercase text-white/90'>
 							{item.title}
 						</h4>
 						<p className=' text-xl text-amber-500 font-bold'>C${item.price}</p>
@@ -39,10 +39,9 @@ const CardComponent = ({ item }: { item: Card }) => {
 					)}
 				</div>
 
-				{/* <div className={`absolute ${item.subtitle ? 'bottom-4' : 'bottom-5'} `}> */}
 				<div className={`w-full`}>
-					<a
-						href='https://wa.me/50589923583?text=Hola%20quiero%20saber%20mas%20de%20este%20servicio%20de%20streaming'
+					<Link
+						href={`streaming/${item.slug}`}
 						target='_blank'
 						rel='noreferrer noopener'
 						className='inline-flex w-full justify-center outline-none items-center px-2.5 border border-white py-1.5 text-sm font-medium text-center text-white rounded-md focus:outline-none  bg-blue-500 hover:bg-blue-600 transition-all'>
@@ -61,7 +60,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 								d='M1 5h12m0 0L9 1m4 4L9 9'
 							/>
 						</svg>
-					</a>
+					</Link>
 				</div>
 			</div>
 		</article>

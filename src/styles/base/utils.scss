@@ -21,6 +21,12 @@
 	}
 }
 
+.gradient {
+	background: linear-gradient(to right, #38bdf8, #6e9ee7, #6ee7b7, #6e9ee7, #6ee7b7, #6e9ee7, #38bdf8);
+	background-clip: text;
+	background-size: 300% 300%;
+}
+
 .scroll-tabs {
 	animation: blur linear both;
 	animation-timeline: scroll();

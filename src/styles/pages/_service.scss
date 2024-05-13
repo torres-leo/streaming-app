@@ -3,12 +3,12 @@
 
 	&__content {
 		@apply grid grid-cols-1 gap-y-10 pt-8 lg:pt-10;
-		@apply lg:grid-cols-2 lg:gap-x-6;
+		// @apply lg:grid-cols-2 lg:gap-x-6;
 		@apply 2xl:gap-x-0;
 	}
 
 	&-image {
-		@apply relative max-w-[550px] w-full h-72 mx-auto;
+		@apply relative max-w-[550px] w-full h-60 mx-auto rounded overflow-hidden;
 		@apply md:max-w-[580px] md:h-96;
 	}
 }

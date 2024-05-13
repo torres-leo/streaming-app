@@ -16,7 +16,8 @@ interface GlobalStore {
 }
 
 export const useGlobalStore = create<GlobalStore>((set, get) => ({
-	activeTab: localStorage.getItem('activeTab') || tabs[0],
+	// activeTab: localStorage.getItem('activeTab') || tabs[0],
+	activeTab: tabs[0],
 	setActiveTab: (tab: string) => set({ activeTab: tab }),
 	loading: true,
 	setLoading: (loading: boolean) => set({ loading }),

@@ -1,6 +1,6 @@
 .card {
 	&__image {
-		@apply w-full h-[200px] bg-cover rounded-t-lg hover:rounded-3xl hover:scale-105 transition-all overflow-hidden;
+		@apply w-full h-[200px] bg-cover rounded-t-lg hover:rounded-3xl hover:scale-105 transition-all overflow-hidden duration-1000 ease-in-out;
 	}
 
 	&__body {

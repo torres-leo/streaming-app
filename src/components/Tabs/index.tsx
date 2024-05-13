@@ -15,6 +15,11 @@ type TabsProps = {
 const Tabs = ({ elements }: TabsProps) => {
 	const { activeTab, setActiveTab, setCardList, setLoading } = useGlobalStore();
 
+	useEffect(() => {
+		const tab = localStorage.getItem('activeTab');
+		if (tab) setActiveTab(tab);
+	}, []);
+
 	const handleClick = (item: string) => {
 		if (item === activeTab) return;
 
