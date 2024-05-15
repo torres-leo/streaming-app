@@ -1,13 +1,13 @@
 .card {
 	&__image {
-		@apply w-full h-[200px] bg-cover rounded-t-lg hover:rounded-3xl hover:scale-105 transition-all overflow-hidden duration-1000 ease-in-out;
+		@apply w-full bg-cover rounded-t-lg hover:rounded-3xl hover:scale-105 transition-all overflow-hidden duration-1000 ease-in-out;
 	}
 
 	&__body {
 		@apply p-5 relative;
 
 		&--info {
-			@apply flex flex-col mb-7 items-center;
+			@apply flex flex-col items-center;
 		}
 	}
 }
