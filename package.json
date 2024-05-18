@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.11.3",
+    "@cloudflare/workers-types": "^4.20240512.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
@@ -20,6 +22,7 @@
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
     "sass": "^1.72.0",
+    "wrangler": "^3.57.0",
     "zustand": "^4.5.2"
   },
   "devDependencies": {

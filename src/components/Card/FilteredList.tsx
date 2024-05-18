@@ -8,12 +8,15 @@ import { useGlobalStore } from '@/src/store/global';
 import CardComponent from '.';
 import Link from 'next/link';
 import SkeletonCard from '../SkeletonCard';
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 import { Card } from '@/src/models';
 import info from '@/data/Home.json';
+import { useRouter } from 'next/navigation';
 
 export default function FilteredList() {
 	const { loading, inputValue, setLoading, filteredList, setFilteredList } = useGlobalStore();
+
+	const router = useRouter();
 
 	useEffect(() => {
 		setLoading(true);
@@ -39,7 +42,7 @@ export default function FilteredList() {
 	}, [inputValue]);
 
 	const renderFilterList = () => {
-		if (loading && filteredList?.length === 0)
+		if (loading && filteredList.length === 0)
 			return (
 				<div className='grid grid-cols-1 gap-y-10 gap-x-2 place-items-center sm:grid-cols-2 md:grid-cols-3 md:gap-6 lg:grid-cols-3 lg:gap-y-20 lg:gap-x-2'>
 					{Array(12)
@@ -50,7 +53,7 @@ export default function FilteredList() {
 				</div>
 			);
 
-		if (filteredList?.length === 0) {
+		if (filteredList.length === 0) {
 			return (
 				<div className='flex items-center justify-center h-96'>
 					<h2 className='text-2xl text-white/85'>No se encontraron resultados</h2>
@@ -59,20 +62,19 @@ export default function FilteredList() {
 		}
 
 		return (
-			<>
-				<motion.ul
-					className={`cards__list ${filteredList?.length === 0 ? 'grid-cols-1' : ''}  ${
-						filteredList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
-					}`}>
-					{filteredList?.map((card) => (
-						<li key={card.title} className={`${filteredList.length > 12 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full`}>
-							<Link href={`streaming/${card.slug}`}>
-								<CardComponent item={card} />
-							</Link>
-						</li>
-					))}
-				</motion.ul>
-			</>
+			<motion.ul
+				className={`cards__list ${filteredList?.length === 0 ? 'grid-cols-1' : ''}  ${
+					filteredList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
+				}`}>
+				{filteredList.map((card) => (
+					<li
+						key={card.id}
+						onClick={() => router.push(`streaming/${card.slug}`)}
+						className={`${filteredList.length > 12 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full cursor-pointer`}>
+						<CardComponent item={card} />
+					</li>
+				))}
+			</motion.ul>
 		);
 	};
 

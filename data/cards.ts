@@ -1,6 +1,7 @@
+import { Card } from '@/src/models';
 import { generateSlug } from '@/src/utils';
 
-const cards = [
+const cards: Card[] = [
 	{
 		id: 1,
 		image: {
@@ -1211,7 +1212,7 @@ const cards = [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contentMessage2: 'Me gustaria contratar el servicio de *Crunchyroll* de *Cuenta completa*',
+		contactMessage2: 'Me gustaria contratar el servicio de *Crunchyroll* de *Cuenta completa*',
 	},
 	{
 		id: 47,

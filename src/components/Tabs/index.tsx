@@ -18,6 +18,8 @@ const Tabs = ({ elements }: TabsProps) => {
 	useEffect(() => {
 		const tab = localStorage.getItem('activeTab');
 		if (tab) setActiveTab(tab);
+
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const handleClick = (item: string) => {

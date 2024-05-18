@@ -33,7 +33,6 @@ const CardComponent = ({ item }: { item: Card }) => {
 				<div className={`w-full`}>
 					<Link
 						href={`streaming/${item.slug}`}
-						target='_blank'
 						rel='noreferrer noopener'
 						className='inline-flex w-full justify-center outline-none items-center px-2.5 border border-white py-1.5 text-sm font-medium text-center text-white rounded-md focus:outline-none  bg-blue-500 hover:bg-blue-600 transition-all'>
 						Leer más
@@ -45,9 +44,9 @@ const CardComponent = ({ item }: { item: Card }) => {
 							viewBox='0 0 14 10'>
 							<path
 								stroke='currentColor'
-								stroke-linecap='round'
-								stroke-linejoin='round'
-								stroke-width='2'
+								strokeLinecap='round'
+								strokeLinejoin='round'
+								strokeWidth='2'
 								d='M1 5h12m0 0L9 1m4 4L9 9'
 							/>
 						</svg>

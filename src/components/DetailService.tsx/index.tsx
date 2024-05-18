@@ -25,9 +25,9 @@ const Live = ({ className }: { className?: string }) => {
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='currentColor'
-			stroke-width='2'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 			className={className}>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z' />
@@ -45,9 +45,9 @@ const QualityHD = ({ className }: { className?: string }) => {
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='currentColor'
-			stroke-width='2'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 			className={className}>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z' />
@@ -66,9 +66,9 @@ const LockPassword = ({ className }: { className?: string }) => {
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='currentColor'
-			stroke-width='2'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 			className={className}>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z' />
@@ -85,9 +85,9 @@ const QualityIcon = ({ className }: { className?: string }) => {
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='currentColor'
-			stroke-width='2'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 			className={className}>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z' />
@@ -107,9 +107,9 @@ const TemplateIcon = ({ className }: { className?: string }) => {
 			viewBox='0 0 24 24'
 			fill='none'
 			stroke='currentColor'
-			stroke-width='2'
-			stroke-linecap='round'
-			stroke-linejoin='round'
+			strokeWidth='2'
+			strokeLinecap='round'
+			strokeLinejoin='round'
 			className={className}>
 			<path stroke='none' d='M0 0h24v24H0z' fill='none' />
 			<path d='M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z' />

@@ -14,6 +14,8 @@ type CardServiceProps = {
 	params: { service: string };
 };
 
+export const runtime = 'edge';
+
 export function generateMetadata({ params }: CardServiceProps) {
 	const service = params.service;
 	const card = cardsInfo.find((card) => card.slug === service);
