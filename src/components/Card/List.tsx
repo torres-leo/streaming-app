@@ -22,18 +22,20 @@ export default function CardList() {
 			);
 
 		return (
-			<motion.ul
-				className={`cards__list ${cardList?.length === 0 ? 'grid-cols-1' : ''}  ${
-					cardList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
-				}`}>
-				{cardList?.map((card) => (
-					<li key={card.title} className={`${cardList.length > 12 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full`}>
-						<Link href={`streaming/${card.slug}`}>
-							<CardComponent item={card} />
-						</Link>
-					</li>
-				))}
-			</motion.ul>
+			<>
+				<motion.ul
+					className={`cards__list ${cardList?.length === 0 ? 'grid-cols-1' : ''}  ${
+						cardList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
+					}`}>
+					{cardList?.map((card) => (
+						<li key={card.title} className={`${cardList.length > 12 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full`}>
+							<Link href={`streaming/${card.slug}`}>
+								<CardComponent item={card} />
+							</Link>
+						</li>
+					))}
+				</motion.ul>
+			</>
 		);
 	};
 

@@ -10,8 +10,8 @@ const CardComponent = ({ item }: { item: Card }) => {
 		<article className='border rounded-lg shadow bg-gray-800 border-gray-500'>
 			<div
 				className={`border-b-2 select-none border-gray-600 overflow-hidden relative ${
-					cardList.length > 12 ? 'h-[230px]' : 'h-[235px]'
-				} ${item.title.toLocaleLowerCase() === 'iptv' && 'h-[270px] sm:h-[235px]'}`}>
+					cardList.length > 12 ? 'h-[230px]' : 'h-[220px]'
+				}`}>
 				<Image className='card__image' src={item.image.src} alt={item.image.alt} quality={100} fill />
 			</div>
 			<div className={`card__body`}>

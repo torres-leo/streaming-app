@@ -13,14 +13,21 @@ interface GlobalStore {
 	setLoading: (loading: boolean) => void;
 	cardList: Card[] | [];
 	setCardList: (cards: Card[]) => void;
+	filteredList: Card[] | [];
+	setFilteredList: (cards: Card[]) => void;
+	inputValue: string;
+	setInputValue: (value: string) => void;
 }
 
 export const useGlobalStore = create<GlobalStore>((set, get) => ({
-	// activeTab: localStorage.getItem('activeTab') || tabs[0],
 	activeTab: tabs[0],
 	setActiveTab: (tab: string) => set({ activeTab: tab }),
 	loading: true,
 	setLoading: (loading: boolean) => set({ loading }),
 	cardList: [],
 	setCardList: (cards: Card[]) => set({ cardList: cards }),
+	filteredList: [],
+	setFilteredList: (cards: Card[]) => set({ filteredList: cards }),
+	inputValue: '',
+	setInputValue: (value: string) => set({ inputValue: value }),
 }));

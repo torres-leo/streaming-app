@@ -1,11 +1,20 @@
+'use client';
+
 import HomeInfo from '@/data/Home.json';
 
 import Section from '@/src/components/SectionContainer';
 import Tabs from '@/src/components/Tabs';
 import MarqueeImages from '@/src/components/Marquee';
 import CardList from '@/src/components/Card/List';
+import { useState } from 'react';
+import { Card } from '@/src/models';
+import SearchInput from '@/src/components/SearchInput';
+import { useGlobalStore } from '@/src/store/global';
+import FilteredList from '@/src/components/Card/FilteredList';
 
 export default function Home() {
+	const { inputValue, filteredList } = useGlobalStore();
+
 	return (
 		<>
 			<Section customClass=' mb-20'>
@@ -18,7 +27,9 @@ export default function Home() {
 
 			<Section customClass='streaming mb-20' title='Servicios de Streaming'>
 				<Tabs elements={HomeInfo.TABS} />
-				<CardList />
+				<SearchInput customClass='mb-10 w-full sm:w-1/2 mx-auto' textShow='Buscar Plataforma' />
+
+				{!inputValue ? <CardList /> : inputValue && filteredList && <FilteredList />}
 			</Section>
 		</>
 	);
