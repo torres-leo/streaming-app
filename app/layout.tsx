@@ -7,6 +7,7 @@ import './globals.scss';
 import Header from '@/src/components/Header';
 
 const openSans = Open_Sans({ subsets: ['latin'] });
+export const runtime = 'edge';
 
 export const metadata: Metadata = {
 	title: 'Pez Streaming',

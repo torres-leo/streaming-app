@@ -1,40 +1,41 @@
 {
-  "name": "pez-streaming",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@cloudflare/next-on-pages": "^1.11.3",
-    "@cloudflare/workers-types": "^4.20240512.0",
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "@fortawesome/free-regular-svg-icons": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "latest",
-    "framer-motion": "^11.0.24",
-    "next": "14.1.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-fast-marquee": "^1.6.4",
-    "sass": "^1.72.0",
-    "wrangler": "^3.57.0",
-    "zustand": "^4.5.2"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "tailwindcss-animated": "^1.0.1",
-    "typescript": "^5"
-  }
+	"name": "pez-streaming",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"pages:build": "npx @cloudflare/next-on-pages"
+	},
+	"dependencies": {
+		"@cloudflare/next-on-pages": "^1.11.3",
+		"@cloudflare/workers-types": "^4.20240512.0",
+		"@fortawesome/fontawesome-svg-core": "^6.5.2",
+		"@fortawesome/free-brands-svg-icons": "^6.5.2",
+		"@fortawesome/free-regular-svg-icons": "^6.5.2",
+		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"@fortawesome/react-fontawesome": "latest",
+		"framer-motion": "^11.0.24",
+		"next": "14.1.4",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-fast-marquee": "^1.6.4",
+		"sass": "^1.72.0",
+		"wrangler": "^3.57.0",
+		"zustand": "^4.5.2"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.0.1",
+		"eslint": "^8",
+		"eslint-config-next": "14.1.4",
+		"postcss": "^8",
+		"tailwindcss": "^3.3.0",
+		"tailwindcss-animated": "^1.0.1",
+		"typescript": "^5"
+	}
 }
