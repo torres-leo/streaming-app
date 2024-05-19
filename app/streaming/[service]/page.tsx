@@ -193,7 +193,7 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 
 			<div className='service-content'>
 				<div className='service-image select-none'>
-					<Image src={card.image.src} alt={card.image.alt} fill quality={100} />
+					<Image src={card.image.src} alt={card.image.alt} fill quality={85} loading='lazy' />
 				</div>
 				<div className='service__info'>
 					{renderTitle()}

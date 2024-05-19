@@ -12,7 +12,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 				className={`border-b-2 select-none border-gray-600 overflow-hidden relative ${
 					cardList.length > 12 ? 'h-[230px]' : 'h-[220px]'
 				}`}>
-				<Image className='card__image' src={item.image.src} alt={item.image.alt} quality={100} fill />
+				<Image className='card__image' src={item.image.src} alt={item.image.alt} quality={75} loading='lazy' fill />
 			</div>
 			<div className={`card__body`}>
 				<div className={`card__body--info ${item.subtitle ? 'mb-4' : 'mb-0'}`}>

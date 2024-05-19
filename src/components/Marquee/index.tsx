@@ -20,7 +20,8 @@ export default function MarqueeImages({ info }: { info: MarqueeImagesProps[] }) 
 							alt={item.alt}
 							width={200}
 							height={200}
-							quality={100}
+							quality={75}
+							loading='lazy'
 						/>
 						<HboText customClass='absolute top-0 flex justify-center items-center h-full mx-auto w-full scale-[.3]' />
 					</div>
@@ -29,21 +30,15 @@ export default function MarqueeImages({ info }: { info: MarqueeImagesProps[] }) 
 			if (item.secondary)
 				return (
 					<div key={crypto.randomUUID()} className='marquee-element relative'>
-						<Image
-							className='marquee-image mr-0'
-							src={item.src}
-							alt={item.alt}
-							width={200}
-							height={200}
-							quality={100}
-						/>
+						<Image className='marquee-image mr-0' src={item.src} alt={item.alt} width={200} height={200} quality={75} />
 						<Image
 							className='absolute top-0 content-center h-full w-full z-10 block opacity-[.35]'
 							src={item.secondary}
 							width={200}
 							height={200}
-							quality={100}
+							quality={75}
 							alt={item.alt}
+							loading='lazy'
 						/>
 					</div>
 				);
@@ -56,7 +51,8 @@ export default function MarqueeImages({ info }: { info: MarqueeImagesProps[] }) 
 					alt={item.alt}
 					width={200}
 					height={200}
-					quality={100}
+					quality={75}
+					loading='lazy'
 				/>
 			);
 		});
