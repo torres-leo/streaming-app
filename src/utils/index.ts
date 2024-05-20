@@ -17,3 +17,5 @@ export function generateSlug(text: string): string {
 		.replaceAll('--', '-')
 		.toLowerCase();
 }
+
+export const dollarValue = 36.4;

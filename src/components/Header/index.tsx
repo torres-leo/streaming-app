@@ -23,7 +23,7 @@ const Header = () => {
 								src='/images/pez-streaming.webp'
 								alt='logo'
 								className='size-10 block bg-cover object-cover rounded-full'
-								quality={100}
+								quality={70}
 								width={100}
 								height={100}
 							/>

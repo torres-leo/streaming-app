@@ -30,8 +30,8 @@ export default function FilteredList() {
 		setFilteredList([]);
 		const lowerCaseSearchTerm = inputValue.toLowerCase();
 		const filtered = cardsInfo.filter((card) => {
-			const lowerCaseTitle = card.title.toLowerCase();
-			const lowerCaseSubtitle = card.subtitle ? card.subtitle.toLowerCase() : '';
+			const lowerCaseTitle = card.title.toLowerCase().replaceAll('- ', '');
+			const lowerCaseSubtitle = card.subtitle ? card.subtitle.toLowerCase().replaceAll('- ', '') : '';
 			return lowerCaseTitle.includes(lowerCaseSearchTerm) || lowerCaseSubtitle.includes(lowerCaseSearchTerm);
 		}) as Card[];
 

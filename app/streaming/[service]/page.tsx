@@ -5,6 +5,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 import { Card } from '@/src/models';
 import { cardsInfo } from '@/data/cards';
+import { dollarValue } from '@/src/utils';
 
 import NotFound from '@/app/not-found';
 import { DetailService } from '@/src/components/DetailService.tsx';
@@ -34,60 +35,41 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 	}
 
 	const renderTitle = () => {
-		if (card.category === 'individual')
-			return (
-				<h1 className='service-title'>
-					Cuenta <span className='text-transparent gradient animate-gradient'>{card.title}</span>
-				</h1>
-			);
-		if (card.category === 'duos')
-			return (
-				<h1 className='service-title'>
-					<span className='text-transparent gradient animate-gradient'>{card.title}</span>
-				</h1>
-			);
-		if (card.category === 'combos')
-			return (
-				<h1 className='service-title'>
-					<span className='text-transparent gradient animate-gradient'>{card.title}</span>
-				</h1>
-			);
+		return (
+			<h1 className='service-title uppercase leading-[1.2] animate-fade-up'>
+				<span className='text-transparent gradient animate-gradient'>{card.title}</span>
+			</h1>
+		);
 	};
 
+	const renderPricing = (
+		<div className='flex gap-x-12 items-center justify-center text-amber-200 font-semibold'>
+			<p className='text-3xl underline underline-offset-8 leading-[1.5] text-center'>
+				Córdobas: <span className='text-green-600 underline underline-offset-8'>C$ {card.price}</span>
+			</p>
+			<p className='text-3xl underline underline-offset-8 leading-[1.5] text-center'>
+				Dólares:{' '}
+				<span className='text-green-600 underline underline-offset-8'>
+					${(Number(card.price) / dollarValue).toFixed(2)}
+				</span>
+			</p>
+		</div>
+	);
+
 	const renderInfoIndividual = () => {
-		if (card.category === 'individual')
+		if (card.category === 'individual' || card.category === 'cuenta completa')
 			return (
 				<div className='flex flex-col gap-y-16'>
+					{renderPricing}
+
 					<div>
-						<div
-							className={`flex gap-x-4 items-center justify-evenly mb-8 lg:mb-10 ${
-								!card.plan1 ? 'md:justify-end' : 'md:justify-between'
-							}`}>
-							{card.plan1 && (
-								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>{card.plan1}</h6>
-							)}
-							<Contact message={card.contactMessage1} />
-						</div>
+						<Contact message={card.contactMessage1} className='w-full sm:w-1/2 xl:w-2/5 block mb-8 mx-auto' />
 						<ul className='flex gap-6 flex-wrap justify-center'>
 							{card.info1?.map((info) => (
 								<DetailService key={info.value} type={info.type} text={info.value} />
 							))}
 						</ul>
 					</div>
-
-					{card.info2 && (
-						<div>
-							<div className='flex gap-x-4 items-center justify-evenly md:justify-between mb-8 lg:mb-10'>
-								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>{card.plan2}</h6>
-								<Contact message={card.contactMessage2} />
-							</div>
-							<ul className='flex gap-6 flex-wrap justify-center'>
-								{card.info2?.map((info) => (
-									<DetailService key={info.value} type={info.type} text={info.value} />
-								))}
-							</ul>
-						</div>
-					)}
 				</div>
 			);
 
@@ -95,52 +77,11 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 	};
 
 	const renderInfoDuos = () => {
-		if (card.category === 'duos')
+		if (card.category === 'duos' || card.category === 'combos')
 			return (
 				<div className='flex flex-col gap-y-16'>
-					<div>
-						<div
-							className={`flex gap-x-4 items-center justify-evenly mb-8 lg:mb-10 ${
-								!card.plan1 ? 'md:justify-end' : 'md:justify-between'
-							}`}>
-							{card.plan1 && (
-								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>
-									{card.plan1} -{' '}
-									<span className='max-xs:text-base text-xl text-amber-400 no-underline'>(cada cuenta)</span>
-								</h6>
-							)}
-							<Contact message={card.contactMessage1} />
-						</div>
-						<ul className='flex gap-6 flex-wrap justify-center'>
-							{card.info1?.map((info) => (
-								<DetailService key={info.value} type={info.type} text={info.value} />
-							))}
-						</ul>
-					</div>
+					{renderPricing}
 
-					{card.info2 && (
-						<div>
-							<div className='flex gap-x-4 items-center justify-evenly md:justify-between mb-8 lg:mb-10'>
-								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>{card.plan2}</h6>
-								<Contact message={card.contactMessage2} />
-							</div>
-							<ul className='flex gap-6 flex-wrap justify-center'>
-								{card.info2?.map((info) => (
-									<DetailService key={info.value} type={info.type} text={info.value} />
-								))}
-							</ul>
-						</div>
-					)}
-				</div>
-			);
-
-		return null;
-	};
-
-	const renderInfoCombos = () => {
-		if (card.category === 'combos')
-			return (
-				<div className='flex flex-col gap-y-16'>
 					<div>
 						<div
 							className={`flex gap-x-4 items-center justify-evenly mb-8 lg:mb-10 ${
@@ -191,20 +132,19 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 
 			<div className='service-content'>
 				<div className='service-image select-none'>
-					<Image src={card.image.src} alt={card.image.alt} fill quality={85} loading='lazy' />
+					<Image src={card.image.src} alt={card.image.alt} fill quality={70} loading='lazy' />
 				</div>
 				<div className='service__info'>
 					{renderTitle()}
 
 					{card?.subtitle && (
-						<p className='text-center text-3xl tracking-wide text-amber-500 font-semibold mb-6 md:mb-10'>
+						<p className='text-center text-3xl md:text-[34px] tracking-wide text-amber-500 font-semibold mb-6 md:mb-10'>
 							{card.subtitle}
 						</p>
 					)}
 
 					{renderInfoIndividual()}
 					{renderInfoDuos()}
-					{renderInfoCombos()}
 				</div>
 			</div>
 		</div>

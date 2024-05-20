@@ -55,7 +55,7 @@ const Tabs = ({ elements }: TabsProps) => {
 				key={idx}
 				className={`tab ${
 					activeTab === item ? 'active' : ''
-				} px-2 py-1 uppercase hover:cursor-pointer hover:bg-white/20 rounded-full transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105`}
+				} text-center py-1 px-2 uppercase hover:cursor-pointer hover:bg-white/20 rounded-full transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105 text-xs sm:text-sm md:text-bsae`}
 				onClick={() => handleClick(item)}>
 				{item}
 			</li>
@@ -65,7 +65,7 @@ const Tabs = ({ elements }: TabsProps) => {
 	return (
 		<ul
 			id='tabs'
-			className={`flex scroll-tabs sticky z-10 top-4 xl:animate-none xl:relative items-center justify-center gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-8 py-2 mb-14 ${
+			className={`flex scroll-tabs sticky z-10 top-4 xl:animate-none xl:relative items-center justify-center gap-x-2 md:gap-x-3 bg-white/10 max-w-fit mx-auto rounded-full px-2 md:px-8 py-2 mb-14 ${
 				inputValue.length > 0 ? 'hidden' : ''
 			}`}>
 			{renderTabs()}

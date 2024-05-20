@@ -1,5 +1,5 @@
 export type Card = {
-	id: number;
+	id: string;
 	category: string;
 	contactMessage1?: string;
 	contactMessage2?: string;
