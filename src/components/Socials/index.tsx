@@ -46,7 +46,7 @@ export default function Socials({ className, withBorder = true, size }: SocialsP
 							className={`${social.parentClass} ${
 								withBorder ? 'border-2 rounded-full p-1' : ''
 							} flex items-center justify-center `}>
-							<FontAwesomeIcon icon={social.icon} className={`${size ? size : 'size-6'} ${social.itemClass}`} />
+							<FontAwesomeIcon icon={social.icon} className={`${size ? size : 'w-6 h-6'} ${social.itemClass}`} />
 						</a>
 					) : (
 						<a
@@ -56,7 +56,7 @@ export default function Socials({ className, withBorder = true, size }: SocialsP
 							className={`${social.parentClass} ${
 								withBorder ? 'border-2 rounded-full p-1' : ''
 							} flex items-center justify-center `}>
-							<FontAwesomeIcon icon={social.icon} className={`${size ? size : 'size-6'} ${social.itemClass}`} />
+							<FontAwesomeIcon icon={social.icon} className={`${size ? size : 'w-6 h-6'} ${social.itemClass}`} />
 						</a>
 					)}
 				</li>
