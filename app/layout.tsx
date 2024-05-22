@@ -5,6 +5,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import './globals.scss';
 
 import Header from '@/src/components/Header';
+import Head from 'next/head';
+import Footer from '@/src/components/Footer';
 
 const openSans = Open_Sans({ subsets: ['latin'] });
 export const runtime = 'edge';
@@ -25,6 +27,7 @@ export default function RootLayout({
 			<body className={`${openSans.className}bg-gray-950`}>
 				<Header />
 				<main className='main-container'>{children}</main>
+				<Footer />
 			</body>
 		</html>
 	);

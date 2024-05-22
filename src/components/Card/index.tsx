@@ -10,7 +10,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 	const { cardList } = useGlobalStore();
 
 	const renderPricing = (
-		<p className=' text-xl text-amber-500 font-bold flex items-center justify-evenly w-full mb-2'>
+		<p className=' text-xl text-amber-500 font-semibold flex items-center justify-evenly w-full mb-2'>
 			<span className='px-1 rounded-lg bg-black/10 border text-center w-[100px]'>C$ {item.price}</span>-
 			<span className='px-1 rounded-lg bg-black/10 border text-center w-[100px]'>
 				$ {(Number(item.price) / dollarValue).toFixed(2)}

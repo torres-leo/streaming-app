@@ -1398,7 +1398,7 @@ const cards: Card[] = [
 	{
 		id: crypto.randomUUID(),
 		image: {
-			src: '/images/cards/canva.webp',
+			src: '/images/cards/canva.png',
 			alt: 'CANVA PRO',
 		},
 		title: 'CANVA PRO',

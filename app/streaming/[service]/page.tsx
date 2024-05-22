@@ -43,23 +43,25 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 	};
 
 	const renderPricing = (
-		<div className='flex gap-x-12 items-center justify-center text-amber-200 font-semibold'>
-			<p className='text-3xl underline underline-offset-8 leading-[1.5] text-center'>
-				Córdobas: <span className='text-green-600 underline underline-offset-8'>C$ {card.price}</span>
-			</p>
-			<p className='text-3xl underline underline-offset-8 leading-[1.5] text-center'>
-				Dólares:{' '}
-				<span className='text-green-600 underline underline-offset-8'>
-					${(Number(card.price) / dollarValue).toFixed(2)}
-				</span>
-			</p>
+		<div className='flex flex-col items-center relative justify-center border border-white/80 w-full sm:w-1/2 mx-auto py-2.5 px-3 rounded-md bg-white/5'>
+			<div className='animate-pulse absolute h-full w-full shadow-2xl shadow-amber-400/40'></div>
+			<p className='text-3xl font-bold mb-2 tracking-wide'>Precio</p>
+			<div className='flex gap-x-12 items-center justify-center text-amber-300 font-light'>
+				<p className='text-2xl leading-[1.5] text-center'>
+					Córdobas: <span className='text-gray-200 font-medium block'>C$ {card.price}</span>
+				</p>
+				<p className='text-2xl leading-[1.5] text-center'>
+					Dólares:{' '}
+					<span className='text-gray-200 font-medium block'>${(Number(card.price) / dollarValue).toFixed(2)}</span>
+				</p>
+			</div>
 		</div>
 	);
 
 	const renderInfoIndividual = () => {
 		if (card.category === 'individual' || card.category === 'cuenta completa')
 			return (
-				<div className='flex flex-col gap-y-16'>
+				<div className='flex flex-col gap-y-8 animate-fade-up'>
 					{renderPricing}
 
 					<div>
@@ -79,7 +81,7 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 	const renderInfoDuos = () => {
 		if (card.category === 'duos' || card.category === 'combos')
 			return (
-				<div className='flex flex-col gap-y-16'>
+				<div className='flex flex-col gap-y-16 animate-fade-up'>
 					{renderPricing}
 
 					<div>

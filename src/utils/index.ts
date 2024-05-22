@@ -1,6 +1,5 @@
 export function isMobile() {
 	if (typeof window === 'undefined') {
-		// Server-side rendering, return false by default
 		return false;
 	}
 
@@ -14,8 +13,8 @@ export function generateSlug(text: string): string {
 		.replaceAll('+', 'plus')
 		.replaceAll('|', '')
 		.replaceAll('&', 'and')
-		.replaceAll('--', '-')
-		.toLowerCase();
+		.toLowerCase()
+		.replace(/-+/g, '-');
 }
 
-export const dollarValue = 36.4;
+export const dollarValue = 36.6;
