@@ -28,13 +28,13 @@ export default function CardList() {
 			<>
 				<motion.ul
 					className={`cards__list ${cardList?.length === 0 ? 'grid-cols-1' : ''}  ${
-						cardList.length > 12 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
+						cardList.length > 13 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
 					}`}>
 					{cardList.map((card) => (
 						<li
 							key={card.id}
 							onClick={() => router.push(`streaming/${card.slug}`)}
-							className={`${cardList.length > 12 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full cursor-pointer`}>
+							className={`${cardList.length > 13 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full cursor-pointer`}>
 							<CardComponent item={card} />
 						</li>
 					))}

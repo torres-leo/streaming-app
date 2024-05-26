@@ -25,7 +25,7 @@ const cards: Card[] = [
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
 		contactMessage1:
-			'Me gustaria contratar el servicio de *Disney Plus | Star Plus | Paramount Plus* - *1 dispositivo*',
+			'Me gustaria contratar el servicio *COMBO* de *Disney Plus | Star Plus | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -48,7 +48,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Disney Plus | Star Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Disney Plus | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -72,7 +72,8 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Star Plus | IPTV | Paramount Plus* - *1 dispositivo*',
+		contactMessage1:
+			'Me gustaria contratar el servicio *COMBO* de *Star Plus | IPTV | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -96,7 +97,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Netflix* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Netflix* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -120,7 +121,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Disney Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -144,7 +145,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Star Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -168,7 +169,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Prime Video* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -194,7 +195,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Spotify Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -218,7 +219,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Crunchyroll* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -242,7 +243,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Youtube Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -266,7 +267,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | IPTV* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | IPTV* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -290,7 +291,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max & Paramount Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max & Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -314,7 +315,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Max | Vix Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -338,7 +339,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Netflix* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Netflix* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -362,7 +363,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Disney Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -386,7 +387,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Star Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -410,7 +411,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | MAX* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -434,7 +435,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV & Prime Video* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV & Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -460,7 +461,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Spotify Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -484,7 +485,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Youtube Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -508,7 +509,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Paramount Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -532,7 +533,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Crunchyroll* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -556,7 +557,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV | Vix Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -579,7 +580,8 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | IPTV | MAX | Disney Plus* - *1 dispositivo*',
+		contactMessage1:
+			'Me gustaria contratar el servicio *COMBO* de *Netflix | IPTV | MAX | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -602,7 +604,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | IPTV | MAX* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *COMBO* de *Netflix | IPTV | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -627,7 +629,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Spotify Premium | MAX* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *COMBO* de *Netflix | Spotify Premium | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -651,7 +653,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Disney Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -675,7 +677,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Star Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -699,7 +701,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | MAX* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -723,7 +725,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Youtube Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -749,7 +751,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Spotify Premium* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -773,7 +775,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Prime Video* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -797,7 +799,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | IPTV* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | IPTV* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -821,7 +823,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Crunchyroll* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -845,7 +847,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Paramount Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -869,7 +871,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Vix Plus* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -893,7 +895,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix | Canva Pro* - *1 dispositivo*',
+		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Canva Pro* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1478,6 +1480,30 @@ const cards: Card[] = [
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
 		contactMessage1: 'Me gustaria contratar el servicio de *Magis TV* de *Cuenta Completa*',
+	},
+	{
+		id: crypto.randomUUID(),
+		image: {
+			src: '/images/cards/combo_6.png',
+			alt: 'magis tv',
+		},
+		title: 'Netflix | Prime Video | MAX | Disney | Star Plus | IPTV',
+		price: '490',
+		category: 'combos',
+		plan1: '1 perfil',
+		info1: [
+			{ value: 'Perfil original', type: 'profile' },
+			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
+			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
+			{ value: 'Duración 30 días', type: 'duration' },
+			{ value: 'No cambiar contraseña', type: 'password' },
+			{ value: 'Calidad 4k UHD', type: 'quality' },
+			{ value: 'Uso para 1 dispositivo', type: 'device' },
+			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
+			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
+		],
+		contactMessage1:
+			'Me gustaria contratar el servicio *COMBO* de *Netflix | Prime Video | MAX | Disney | Star Plus | IPTV* de *1 Dispositivo*',
 	},
 ];
 
