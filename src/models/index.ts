@@ -1,17 +1,16 @@
 export type Card = {
 	id: string;
 	category: string;
-	contactMessage1?: string;
-	contactMessage2?: string;
+	contactMessage: string;
 	image: CardImage;
-	info1?: CardInfo[];
-	info2?: CardInfo[];
-	plan1?: string;
-	plan2?: string;
+	info?: CardInfo[];
+	plan?: string;
 	price: string;
 	slug?: string;
 	subtitle?: string;
 	title: string;
+	notes?: string[];
+	steps?: string[];
 };
 
 type CardImage = {

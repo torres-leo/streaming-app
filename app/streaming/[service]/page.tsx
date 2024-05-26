@@ -29,6 +29,7 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 	const { service } = params;
 
 	const card = cardsInfo.find((card) => card.slug === service);
+	const containsHTML = (str: string) => /<\/?[a-z][\s\S]*>/i.test(str);
 
 	if (!card) {
 		return <NotFound />;
@@ -64,9 +65,9 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 					{renderPricing}
 
 					<div>
-						<Contact message={card.contactMessage1} className='w-full sm:w-1/2 xl:w-2/5 block mb-8 mx-auto' />
+						<Contact message={card.contactMessage} className='w-full sm:w-1/2 xl:w-2/5 block mb-8 mx-auto' />
 						<ul className='flex gap-6 flex-wrap justify-center'>
-							{card.info1?.map((info) => (
+							{card.info?.map((info) => (
 								<DetailService key={info.value} type={info.type} text={info.value} />
 							))}
 						</ul>
@@ -86,40 +87,63 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 					<div>
 						<div
 							className={`flex gap-x-4 items-center justify-evenly mb-8 lg:mb-10 ${
-								!card.plan1 ? 'md:justify-end' : 'md:justify-between'
+								!card.plan ? 'md:justify-end' : 'md:justify-between'
 							}`}>
-							{card.plan1 && (
+							{card.plan && (
 								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>
-									{card.plan1} -{' '}
+									{card.plan} -{' '}
 									<span className='max-xs:text-base text-xl text-amber-400 no-underline'>(cada cuenta)</span>
 								</h6>
 							)}
-							<Contact message={card.contactMessage1} />
+							<Contact message={card.contactMessage} />
 						</div>
 						<ul className='flex gap-6 flex-wrap justify-center'>
-							{card.info1?.map((info) => (
+							{card.info?.map((info) => (
 								<DetailService key={info.value} type={info.type} text={info.value} />
 							))}
 						</ul>
 					</div>
-
-					{card.info2 && (
-						<div>
-							<div className='flex gap-x-4 items-center justify-evenly md:justify-between mb-8 lg:mb-10'>
-								<h6 className='text-xl md:text-3xl underline underline-offset-8 capitalize'>{card.plan2}</h6>
-								<Contact message={card.contactMessage2} />
-							</div>
-							<ul className='flex gap-6 flex-wrap justify-center'>
-								{card.info2?.map((info) => (
-									<DetailService key={info.value} type={info.type} text={info.value} />
-								))}
-							</ul>
-						</div>
-					)}
 				</div>
 			);
 
 		return null;
+	};
+
+	const renderNotes = () => {
+		if (card.notes) {
+			return (
+				<div className='mt-2 grid grid-cols-1 md:grid-cols-2 text-center gap-y-3 md:gap-y-0 gap-x-8 animate-fade-up'>
+					<div>
+						<h2 className='text-3xl md:text-4xl text-center text-amber-500 font-semibold mb-3 md:mb-4'>Notas</h2>
+						<ul className='flex gap-y-2 flex-wrap list-decimal list-inside'>
+							{card.notes.map((note) => (
+								<li key={note} className='text-lg text-left text-gray-300 leading-[1.2]'>
+									{note}
+								</li>
+							))}
+						</ul>
+					</div>
+
+					<div>
+						<h3 className='text-3xl md:text-4xl text-center text-amber-500 font-semibold mb-3 md:mb-4'>Pasos</h3>
+						<ul className='flex gap-y-2 flex-wrap list-decimal list-inside'>
+							{card.steps?.map((step, idx) => (
+								<li key={idx} className='text-lg text-left text-gray-300 leading-[1.2]'>
+									{containsHTML(step) ? (
+										<span
+											className='underline underline-offset-2 text-blue-400'
+											dangerouslySetInnerHTML={{ __html: step }}
+										/>
+									) : (
+										step
+									)}
+								</li>
+							))}
+						</ul>
+					</div>
+				</div>
+			);
+		}
 	};
 
 	return (
@@ -135,17 +159,16 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 				<div className='service-image select-none'>
 					<Image src={card.image.src} alt={card.image.alt} fill quality={70} loading='lazy' />
 				</div>
-				<div className='service__info'>
+				<div className='service-info'>
 					{renderTitle()}
-
 					{card?.subtitle && (
 						<p className='text-center text-3xl md:text-[34px] tracking-wide text-amber-500 font-semibold mb-6 md:mb-10'>
 							{card.subtitle}
 						</p>
 					)}
-
 					{renderInfoIndividual()}
 					{renderInfoDuos()}
+					{renderNotes()}
 				</div>
 			</div>
 		</div>

@@ -12,8 +12,8 @@ const cards: Card[] = [
 		subtitle: 'Disney + | Star + | Paramount +',
 		price: '250',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -24,7 +24,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1:
+		contactMessage:
 			'Me gustaria contratar el servicio *COMBO* de *Disney Plus | Star Plus | Paramount Plus* - *1 dispositivo*',
 	},
 	{
@@ -36,8 +36,8 @@ const cards: Card[] = [
 		title: 'Disney + | Star +',
 		price: '180',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -48,7 +48,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Disney Plus | Star Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Disney Plus | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -60,8 +60,8 @@ const cards: Card[] = [
 		subtitle: 'Star + | IPTV | Paramount +',
 		price: '300',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -72,7 +72,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1:
+		contactMessage:
 			'Me gustaria contratar el servicio *COMBO* de *Star Plus | IPTV | Paramount Plus* - *1 dispositivo*',
 	},
 	{
@@ -85,8 +85,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Netflix',
 		price: '200',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -97,7 +97,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Netflix* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Netflix* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -109,8 +109,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Disney +',
 		price: '150',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -121,7 +121,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Disney Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -133,8 +133,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Star +',
 		price: '170',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -145,7 +145,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Star Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -157,8 +157,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Prime Video',
 		price: '150',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -169,7 +169,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Prime Video* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -181,8 +181,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Spotify Premium',
 		price: '180',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -195,7 +195,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Spotify Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -207,8 +207,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Crunchyroll',
 		price: '150',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -219,7 +219,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Crunchyroll* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -231,8 +231,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Youtube Premium',
 		price: '180',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -243,7 +243,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Youtube Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -255,8 +255,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & IPTV',
 		price: '200',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -267,7 +267,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | IPTV* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | IPTV* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -279,8 +279,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Paramount +',
 		price: '150',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -291,7 +291,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max & Paramount Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max & Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -303,8 +303,8 @@ const cards: Card[] = [
 		subtitle: 'MAX & Vix Plus',
 		price: '150',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -315,7 +315,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Max | Vix Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Max | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -327,8 +327,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Netflix',
 		price: '280',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -339,7 +339,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Netflix* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Netflix* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -351,8 +351,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Disney +',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -363,7 +363,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Disney Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -375,8 +375,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Star +',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -387,7 +387,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Star Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -399,8 +399,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & MAX',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -411,7 +411,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | MAX* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -423,8 +423,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Prime Video',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -435,7 +435,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV & Prime Video* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV & Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -447,8 +447,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Spotify Premium',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -461,7 +461,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Spotify Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -473,8 +473,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Youtube Premium',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -485,7 +485,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Youtube Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -497,8 +497,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Paramount Plus',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -509,7 +509,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Paramount Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -521,8 +521,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Crunchyroll',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -533,7 +533,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Crunchyroll* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -545,8 +545,8 @@ const cards: Card[] = [
 		subtitle: 'IPTV & Vix Plus',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -557,7 +557,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Vix Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *IPTV | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -568,8 +568,8 @@ const cards: Card[] = [
 		title: 'Netflix | IPTV | MAX | Disney +',
 		price: '390',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -580,7 +580,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1:
+		contactMessage:
 			'Me gustaria contratar el servicio *COMBO* de *Netflix | IPTV | MAX | Disney Plus* - *1 dispositivo*',
 	},
 	{
@@ -592,8 +592,8 @@ const cards: Card[] = [
 		title: 'Netflix | IPTV | MAX',
 		price: '330',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -604,7 +604,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *COMBO* de *Netflix | IPTV | MAX* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *COMBO* de *Netflix | IPTV | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -615,8 +615,8 @@ const cards: Card[] = [
 		title: 'Netflix | Spotify Premium | MAX',
 		price: '300',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -629,7 +629,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *COMBO* de *Netflix | Spotify Premium | MAX* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *COMBO* de *Netflix | Spotify Premium | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -641,8 +641,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Disney +',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -653,7 +653,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Disney Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Disney Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -665,8 +665,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Star +',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -677,7 +677,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Star Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Star Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -689,8 +689,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & MAX',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -701,7 +701,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | MAX* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | MAX* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -713,8 +713,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Youtube Premium',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -725,7 +725,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Youtube Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Youtube Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -737,8 +737,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Spotify Premium',
 		price: '250',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -751,7 +751,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Spotify Premium* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Spotify Premium* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -763,8 +763,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Prime Video',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -775,7 +775,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Prime Video* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Prime Video* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -787,8 +787,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & IPTV',
 		price: '230',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -799,7 +799,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | IPTV* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | IPTV* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -811,8 +811,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Crunchyroll',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -823,7 +823,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Crunchyroll* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Crunchyroll* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -835,8 +835,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Paramount +',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -847,7 +847,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Paramount Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Paramount Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -859,8 +859,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Vix Plus',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -871,7 +871,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Vix Plus* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Vix Plus* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -883,8 +883,8 @@ const cards: Card[] = [
 		subtitle: 'Netflix & Canva Pro',
 		price: '220',
 		category: 'duos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -895,7 +895,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Canva Pro* - *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio *DÚOS* de *Netflix | Canva Pro* - *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -906,8 +906,8 @@ const cards: Card[] = [
 		title: 'NETFLIX - 1 mes - 1 dispositivo',
 		price: '160',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -918,7 +918,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Netflix* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -929,8 +929,8 @@ const cards: Card[] = [
 		title: 'NETFLIX - 1 mes - Cuenta Completa',
 		price: '450',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -941,7 +941,31 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Netflix* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Netflix* de *Cuenta completa*',
+	},
+	{
+		id: crypto.randomUUID(),
+		image: {
+			src: '/images/cards/netflix_turquia.webp',
+			alt: 'Netflix turquia',
+		},
+		title: 'Netflix Turquia - 1 mes - Cuenta Completa',
+		price: '329.4',
+		category: 'cuenta completa',
+		contactMessage: 'Me gustaria contratar el servicio de *Netflix Turquia* de *Cuenta Completa*',
+		notes: [
+			'Cuenta Netflix facturación Turquía sin geobloqueo en pausa, lista para cargar saldo y usar.',
+			'No dejarla en pausa varios días, cargarle saldo apenas adquirida.',
+			'La cuenta se entrega en correo Yopmail, para que usted mismo cambie el correo al que desee.',
+			'Se recomienda usar VPN de Turquía durante el proceso de cambio de Email para evitar fallas.',
+		],
+		steps: [
+			'Ingresar a <a href="https://www.yopmail.com" target="_blank">www.yopmail.com</a>',
+			'Colocar el correo de Yopmail suministrado.',
+			'llegará el código de verificación para cambiar correo.',
+			'En ajustes de cuenta de Netflix, presionar la opción de cambiar email.',
+			'Colocar el código de verificación y finalmente el email al que desea que la cuenta quede asociada.',
+		],
 	},
 	{
 		id: crypto.randomUUID(),
@@ -952,8 +976,8 @@ const cards: Card[] = [
 		title: 'DISNEY plus - 1 mes - 1 dispositivo',
 		price: '100',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -964,7 +988,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Disney plus* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Disney plus* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -975,8 +999,8 @@ const cards: Card[] = [
 		title: 'DISNEY plus - 1 mes - Cuenta completa',
 		price: '220',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -988,7 +1012,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Disney plus* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Disney plus* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -999,8 +1023,8 @@ const cards: Card[] = [
 		title: 'STAR plus - 1 mes - 1 dispositivo',
 		price: '120',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1011,7 +1035,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Star plus* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Star plus* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1022,8 +1046,8 @@ const cards: Card[] = [
 		title: 'STAR plus - 1 mes - Cuenta completa',
 		price: '250',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1035,7 +1059,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Star plus* - *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Star plus* - *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1046,8 +1070,8 @@ const cards: Card[] = [
 		title: 'MAX - 1 mes - 1 dispositivo',
 		price: '100',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1058,7 +1082,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de MAX + para 1 dispositivo',
+		contactMessage: 'Me gustaria contratar el servicio de MAX + para 1 dispositivo',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1069,8 +1093,8 @@ const cards: Card[] = [
 		title: 'MAX - 1 mes - Cuenta completa',
 		price: '200',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1082,7 +1106,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *MAX* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *MAX* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1093,8 +1117,8 @@ const cards: Card[] = [
 		title: 'YOUTUBE PREMIUM - 1 mes - 1 dispositivo',
 		price: '130',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1107,7 +1131,7 @@ const cards: Card[] = [
 			{ value: 'Mira YouTube fuera de la app', type: 'yt' },
 			{ value: 'Acceso a YouTube music ', type: 'yt-music' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Youtube Premium* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Youtube Premium* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1118,8 +1142,8 @@ const cards: Card[] = [
 		title: 'YOUTUBE PREMIUM - 1 mes - Cuenta completa',
 		price: '250',
 		category: 'cuenta completa',
-		plan1: 'cuenta completa',
-		info1: [
+		plan: 'cuenta completa',
+		info: [
 			{ value: 'cuenta original', type: 'account' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1132,7 +1156,7 @@ const cards: Card[] = [
 			{ value: 'Mira YouTube fuera de la app', type: 'yt' },
 			{ value: 'Acceso a YouTube music ', type: 'yt-music' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Youtube Premium Familiar*',
+		contactMessage: 'Me gustaria contratar el servicio de *Youtube Premium Familiar*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1143,8 +1167,8 @@ const cards: Card[] = [
 		title: 'SPOTIFY PREMIUM - 1 mes - 1 dispositivo',
 		price: '130',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'Excelente calidad de audio', type: 'audio' },
@@ -1155,7 +1179,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Spotify Premium* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Spotify Premium* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1166,8 +1190,8 @@ const cards: Card[] = [
 		title: 'SPOTIFY PREMIUM - 1 mes - Cuenta familiar',
 		price: '280',
 		category: 'cuenta completa',
-		plan2: 'Cuenta familiar',
-		info2: [
+		plan: 'Cuenta familiar',
+		info: [
 			{ value: 'cuenta original', type: 'account' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'Excelente calidad de audio', type: 'audio' },
@@ -1178,7 +1202,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 5 dispositivos', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage2: 'Me gustaria contratar el servicio de *Spotify Premium* de *Cuenta familiar*',
+		contactMessage: 'Me gustaria contratar el servicio de *Spotify Premium* de *Cuenta familiar*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1189,8 +1213,8 @@ const cards: Card[] = [
 		title: 'AMAZON PRIME VIDEO - 1 mes - 1 dispositivo',
 		price: '100',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1201,7 +1225,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en toda Latinoamérica', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Amazon Prime Video* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Amazon Prime Video* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1212,8 +1236,8 @@ const cards: Card[] = [
 		title: 'AMAZON PRIME VIDEO - 1 mes - Cuenta completa',
 		price: '200',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1225,7 +1249,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Amazon Prime Video* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Amazon Prime Video* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1236,8 +1260,8 @@ const cards: Card[] = [
 		title: 'IPTV - 1 mes - 1 dispositivo',
 		price: '180',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: '1 Perfil', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1249,7 +1273,7 @@ const cards: Card[] = [
 			{ value: 'Tener 10 megas de internet de Carga', type: 'wifi' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *IPTV* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1260,8 +1284,8 @@ const cards: Card[] = [
 		title: 'IPTV - 1 mes - Cuenta completa',
 		price: '370',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: '4 perfiles', type: 'account' },
 			{ value: 'Renovable notificar 2 días antes', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1274,7 +1298,7 @@ const cards: Card[] = [
 			{ value: 'Tener 10 megas de internet de Carga', type: 'wifi' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *IPTV* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *IPTV* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1283,10 +1307,10 @@ const cards: Card[] = [
 			alt: 'CRUNCHYROLL',
 		},
 		title: 'CRUNCHYROLL',
-		price: '100',
+		price: '70',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1296,9 +1320,19 @@ const cards: Card[] = [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Crunchyroll* para *1 dispositivo*',
-		plan2: 'Cuenta completa',
-		info2: [
+		contactMessage: 'Me gustaria contratar el servicio de *Crunchyroll* para *1 dispositivo*',
+	},
+	{
+		id: crypto.randomUUID(),
+		image: {
+			src: '/images/cards/crunchy.webp',
+			alt: 'CRUNCHYROLL',
+		},
+		title: 'CRUNCHYROLL',
+		price: '130',
+		category: 'cuenta completa',
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1309,7 +1343,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage2: 'Me gustaria contratar el servicio de *Crunchyroll* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Crunchyroll* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1320,8 +1354,8 @@ const cards: Card[] = [
 		title: 'PARAMOUNT PLUS - 1 mes - 1 dispositivo',
 		price: '100',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1331,7 +1365,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Paramount Plus* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Paramount Plus* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1342,8 +1376,8 @@ const cards: Card[] = [
 		title: 'PARAMOUNT PLUS - 1 mes - Cuenta completa',
 		price: '200',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1352,7 +1386,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 6 dispositivos y 3 simultaneos', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Paramount Plus* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Paramount Plus* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1363,8 +1397,8 @@ const cards: Card[] = [
 		title: 'VIX PLUS - 1 mes - 1 dispositivo',
 		price: '100',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1374,7 +1408,7 @@ const cards: Card[] = [
 			{ value: 'Señal en vivo', type: 'live' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Vix Plus* para *1 dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *Vix Plus* para *1 dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1385,8 +1419,8 @@ const cards: Card[] = [
 		title: 'VIX PLUS - 1 mes - Cuenta completa',
 		price: '200',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1395,7 +1429,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 6 dispositivos y 3 simultaneos', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Vix Plus* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Vix Plus* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1406,15 +1440,15 @@ const cards: Card[] = [
 		title: 'CANVA PRO',
 		price: '120',
 		category: 'individual',
-		plan1: '',
-		info1: [
+		plan: '',
+		info: [
 			{ value: 'Uso para 1 dispositivo', type: 'device' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'Duración 30 días', type: 'duration' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 			{ value: 'Plantillas premium', type: 'template' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Canva Pro*',
+		contactMessage: 'Me gustaria contratar el servicio de *Canva Pro*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1425,8 +1459,8 @@ const cards: Card[] = [
 		title: 'PLEX - 1 mes - Cuenta completa',
 		price: '400',
 		category: 'cuenta completa',
-		plan1: 'Cuenta completa',
-		info1: [
+		plan: 'Cuenta completa',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 3 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1435,7 +1469,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 4 dispositivo en simultaneo', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *PLEX* de *Cuenta completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *PLEX* de *Cuenta completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1446,8 +1480,8 @@ const cards: Card[] = [
 		title: 'PLEX - 1 mes - 1 Dispositivo',
 		price: '160',
 		category: 'individual',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 3 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1456,7 +1490,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 1 dispositivo en simultaneo', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *PLEX* de *1 Dispositivo*',
+		contactMessage: 'Me gustaria contratar el servicio de *PLEX* de *1 Dispositivo*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1467,8 +1501,8 @@ const cards: Card[] = [
 		title: 'Magis TV - 1 mes - Cuenta Completa',
 		price: '402.23',
 		category: 'cuenta completa',
-		plan1: '1 Dispositivo',
-		info1: [
+		plan: '1 Dispositivo',
+		info: [
 			{ value: 'Cuenta original', type: 'profile' },
 			{ value: 'Renovable (notificar 3 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1479,7 +1513,7 @@ const cards: Card[] = [
 			{ value: 'Uso para 3 dispositivo en simultaneo', type: 'multiple' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1: 'Me gustaria contratar el servicio de *Magis TV* de *Cuenta Completa*',
+		contactMessage: 'Me gustaria contratar el servicio de *Magis TV* de *Cuenta Completa*',
 	},
 	{
 		id: crypto.randomUUID(),
@@ -1490,8 +1524,8 @@ const cards: Card[] = [
 		title: 'Netflix | Prime Video | MAX | Disney | Star Plus | IPTV',
 		price: '490',
 		category: 'combos',
-		plan1: '1 perfil',
-		info1: [
+		plan: '1 perfil',
+		info: [
 			{ value: 'Perfil original', type: 'profile' },
 			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
 			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
@@ -1502,7 +1536,7 @@ const cards: Card[] = [
 			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
 			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
 		],
-		contactMessage1:
+		contactMessage:
 			'Me gustaria contratar el servicio *COMBO* de *Netflix | Prime Video | MAX | Disney | Star Plus | IPTV* de *1 Dispositivo*',
 	},
 ];

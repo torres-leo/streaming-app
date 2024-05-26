@@ -211,7 +211,7 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 
 	return (
 		<li className='flex flex-col items-center max-w-[130px] w-full border rounded-lg bg-blue-600'>
-			<span className='h-10 2xl:h-14 flex items-center justify-center bg-white/30 w-full'>{renderIcon()}</span>
+			<span className='h-10 2xl:h-14 flex items-center justify-center bg-white/30 w-full relative'>{renderIcon()}</span>
 			<div className='bg-blue-700 w-full rounded-b-lg h-[calc(100%-40px)] 2xl:h-[calc(100%-56px)]'>
 				<p
 					className={`px-2 py-2 max-xs:text-xs max-xs:tracking-wide text-base text-center h-full flex justify-center items-center ${
