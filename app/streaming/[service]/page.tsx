@@ -5,7 +5,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 import { Card } from '@/src/models';
 import { cardsInfo } from '@/data/cards';
-import { dollarValue } from '@/src/utils';
+import { convertToDollar, dollarValue } from '@/src/utils';
 
 import NotFound from '@/app/not-found';
 import { DetailService } from '@/src/components/DetailService.tsx';
@@ -51,8 +51,7 @@ export default function CardServiceProps({ params }: CardServiceProps) {
 					Córdobas: <span className='text-gray-200 font-medium block'>C$ {card.price}</span>
 				</p>
 				<p className='text-2xl leading-[1.5] text-center'>
-					Dólares:{' '}
-					<span className='text-gray-200 font-medium block'>${(Number(card.price) / dollarValue).toFixed(2)}</span>
+					Dólares: <span className='text-gray-200 font-medium block'>${convertToDollar(Number(card.price))}</span>
 				</p>
 			</div>
 		</div>

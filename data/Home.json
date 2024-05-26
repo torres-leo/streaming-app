@@ -17,6 +17,14 @@
 		{
 			"src": "/images/max.webp",
 			"alt": "MAX"
+		},
+		{
+			"src": "/images/plex.webp",
+			"alt": "PLEX"
+		},
+		{
+			"src": "/images/magis_tv.webp",
+			"alt": "magis tv"
 		}
 	],
 	"TABS": ["individual", "duos", "combos", "cuenta completa"]

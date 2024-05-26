@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { useGlobalStore } from '@/src/store/global';
-import { dollarValue } from '@/src/utils';
+import { convertToDollar } from '@/src/utils';
 
 import { Card } from '@/src/models';
 
@@ -13,7 +13,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 		<p className=' text-xl text-amber-500 font-semibold flex items-center justify-evenly w-full mb-2'>
 			<span className='px-1 rounded-lg bg-black/10 border text-center w-[100px]'>C$ {item.price}</span>-
 			<span className='px-1 rounded-lg bg-black/10 border text-center w-[100px]'>
-				$ {(Number(item.price) / dollarValue).toFixed(2)}
+				$ {convertToDollar(Number(item.price))}
 			</span>
 		</p>
 	);

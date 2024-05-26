@@ -18,3 +18,9 @@ export function generateSlug(text: string): string {
 }
 
 export const dollarValue = 36.6;
+
+export const convertToDollar = (price: number) => {
+	const result = (price / dollarValue).toFixed(2);
+	if (result.split('.')[1] === '00' || result.split('.')[1] === '0') return Number(result.split('.')[0]);
+	else return Number(result);
+};

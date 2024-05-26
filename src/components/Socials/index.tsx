@@ -17,15 +17,14 @@ const socials = [
 	},
 	{
 		name: 'Instagram',
-		url: 'https://www.instagram.com/',
+		url: 'https://www.instagram.com/pezstreaming/',
 		icon: faInstagram,
 		parentClass: 'border-pink-500 hover:border-white hover:scale-110',
 		itemClass: 'hover:text-pink-500',
 	},
 	{
 		name: 'WhatsApp',
-		// url: 'https://wa.me/50588608870',
-		url: 'https://wa.me/50589923583',
+		url: 'https://wa.me/50588608870',
 		text: 'Hola,%0A%0AHe estado revisando su catálogo de servicios en la web y estoy interesado en obtener más información sobre algunos de ellos. ¿Podrían proporcionarme detalles adicionales o aclarar algunas dudas que tengo?',
 		icon: faWhatsapp,
 		parentClass: 'border-green-500 hover:border-white hover:scale-110',

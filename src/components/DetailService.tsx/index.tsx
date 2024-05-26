@@ -16,7 +16,7 @@ import {
 	faBan,
 	faWifi3,
 } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube, faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faSpotify, faAndroid } from '@fortawesome/free-brands-svg-icons';
 
 const Live = ({ className }: { className?: string }) => {
 	return (
@@ -135,6 +135,8 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 				return <FontAwesomeIcon icon={faUser} className='text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'audio':
 				return <FontAwesomeIcon icon={faSpotify} className='text-xl md:text-2xl 2xl:text-4xl' />;
+			case 'android':
+				return <FontAwesomeIcon icon={faAndroid} className='text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'credentials':
 				return <FontAwesomeIcon icon={faUserLock} className='text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'device':
