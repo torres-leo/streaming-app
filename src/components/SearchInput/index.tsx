@@ -1,7 +1,7 @@
 'use client';
 
 import { useGlobalStore } from '@/src/store/global';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent } from 'react';
 
 type SearchInputProps = {
 	customClass?: string;

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpotify, faFacebook, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 type SocialsProps = {
 	className?: string;

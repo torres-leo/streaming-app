@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { useGlobalStore } from '@/src/store/global';
 import { convertToDollar } from '@/src/utils';
 
 import { Card } from '@/src/models';
 
 const CardComponent = ({ item }: { item: Card }) => {
-	const { cardList } = useGlobalStore();
-
 	const renderPricing = (
 		<p className=' text-xl text-amber-500 font-semibold flex items-center justify-evenly w-full mb-2'>
 			<span className='px-1 rounded-lg bg-black/10 border text-center w-[100px]'>C$ {item.price}</span>-
@@ -20,10 +17,7 @@ const CardComponent = ({ item }: { item: Card }) => {
 
 	return (
 		<article className='border rounded-lg shadow bg-gray-800 border-gray-500'>
-			<div
-				className={`border-b-2 select-none border-gray-600 overflow-hidden relative ${
-					cardList.length > 12 ? 'h-[230px]' : 'h-[220px]'
-				}`}>
+			<div className={`border-b-2 select-none border-gray-600 overflow-hidden relative h-[220px]`}>
 				<Image className='card__image' src={item.image.src} alt={item.image.alt} quality={70} loading='lazy' fill />
 			</div>
 			<div className={`card__body`}>

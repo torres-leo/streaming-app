@@ -1,17 +1,16 @@
 'use client';
 
+import { useGlobalStore } from '@/src/store/global';
+
 import HomeInfo from '@/data/Home.json';
 
-import Section from '@/src/components/SectionContainer';
-import Tabs from '@/src/components/Tabs';
-import MarqueeImages from '@/src/components/Marquee';
 import CardList from '@/src/components/Card/List';
-import { useState } from 'react';
-import { Card } from '@/src/models';
-import SearchInput from '@/src/components/SearchInput';
-import { useGlobalStore } from '@/src/store/global';
 import FilteredList from '@/src/components/Card/FilteredList';
+import MarqueeImages from '@/src/components/Marquee';
+import SearchInput from '@/src/components/SearchInput';
+import Section from '@/src/components/SectionContainer';
 import Socials from '@/src/components/Socials';
+import Tabs from '@/src/components/Tabs';
 
 export default function Home() {
 	const { inputValue, filteredList } = useGlobalStore();

@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { useGlobalStore } from '@/src/store/global';
 import SkeletonCard from '../SkeletonCard';
 import CardComponent from '.';
-import Link from 'next/link';
 import { useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -34,7 +33,7 @@ export default function CardList() {
 						<li
 							key={card.id}
 							onClick={() => router.push(`streaming/${card.slug}`)}
-							className={`${cardList.length > 13 ? 'max-w-[290px]' : 'max-w-[310px]'} w-full cursor-pointer`}>
+							className={`${cardList.length > 13 ? 'max-w-[280px]' : 'max-w-[300px]'} w-full cursor-pointer`}>
 							<CardComponent item={card} />
 						</li>
 					))}

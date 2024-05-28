@@ -1,4 +1,13 @@
 .tab {
+	@apply text-center text-white py-1 px-2 uppercase rounded-full transition-all duration-300 ease-in-out text-xs;
+	@apply sm:text-sm;
+	@apply md:text-base;
+	@apply hover:cursor-pointer hover:bg-white/20 hover:shadow-md hover:scale-105;
+
+	@media (width<=375px) {
+		@apply text-[11.5px];
+	}
+
 	&.active {
 		@apply text-sky-500 bg-white/20 rounded-full px-2 transition border border-white/60 font-semibold;
 		@apply sm:border-none;

@@ -3,9 +3,8 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-import { Card } from '@/src/models';
 import { cardsInfo } from '@/data/cards';
-import { convertToDollar, dollarValue } from '@/src/utils';
+import { convertToDollar } from '@/src/utils';
 
 import NotFound from '@/app/not-found';
 import { DetailService } from '@/src/components/DetailService.tsx';

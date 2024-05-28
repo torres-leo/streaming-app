@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import './globals.scss';
 
 import Header from '@/src/components/Header';
-import Head from 'next/head';
 import Footer from '@/src/components/Footer';
 
 const openSans = Open_Sans({ subsets: ['latin'] });
