@@ -180,6 +180,12 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 				);
 			case 'renewable':
 				return <FontAwesomeIcon icon={faRotateBackward} className='text-xl md:text-2xl 2xl:text-4xl' />;
+			case 'norenewable':
+				return (
+					<span className='text-white size-8 absolute text-center flex items-center justify-center font-bold border-4 border-white rounded-full opacity-80'>
+						X
+					</span>
+				);
 			case 'template':
 				return <TemplateIcon className='w-20 h-8 md:h-10' />;
 			case 'warranty':
