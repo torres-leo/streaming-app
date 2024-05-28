@@ -55,7 +55,7 @@ const Tabs = ({ elements }: TabsProps) => {
 				key={idx}
 				className={`tab ${
 					activeTab === item ? 'active' : ''
-				} text-center py-1 px-2 uppercase hover:cursor-pointer hover:bg-white/20 rounded-full transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105 text-xs sm:text-sm md:text-bsae`}
+				} text-center text-white py-1 px-2 uppercase hover:cursor-pointer hover:bg-white/20 rounded-full transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105 text-xs sm:text-sm md:text-bsae`}
 				onClick={() => handleClick(item)}>
 				{item}
 			</li>

@@ -36,7 +36,7 @@ export default function Socials({ className, withBorder = true, size }: SocialsP
 	return (
 		<ul className={`flex gap-x-4 items-center justify-center ${className}`}>
 			{socials.map((social) => (
-				<li key={social.name}>
+				<li key={social.name} className='text-white'>
 					{social.name === 'WhatsApp' ? (
 						<a
 							href={`${social.url}?text=${social.text}`}

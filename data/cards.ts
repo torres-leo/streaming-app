@@ -1586,6 +1586,29 @@ const cards: Card[] = [
 		],
 		contactMessage: 'Me gustaria contratar el servicio de *Disney plus* para *1 dispositivo*',
 	},
+	{
+		id: crypto.randomUUID(),
+		image: {
+			src: '/images/cards/max_primevideo_crunchy.png',
+			alt: 'max primevideo crunchyroll',
+		},
+		title: 'MAX | Prime Video | Crunchyroll',
+		price: '230',
+		category: 'combos',
+		plan: '1 perfil',
+		info: [
+			{ value: 'Perfil original', type: 'profile' },
+			{ value: 'Renovable (notificar 2 días antes)', type: 'renewable' },
+			{ value: 'smartv, celulares, tablets, computadoras', type: 'devices' },
+			{ value: 'Duración 30 días', type: 'duration' },
+			{ value: 'Correo, pin', type: 'credentials' },
+			{ value: 'Calidad 4k UHD', type: 'quality' },
+			{ value: 'Uso para 1 dispositivo', type: 'device' },
+			{ value: 'Acceso en cualquier parte del mundo', type: 'access' },
+			{ value: 'Garantia en tiempo de uso', type: 'warranty' },
+		],
+		contactMessage: 'Me gustaria contratar el servicio *COMBO* de *MAX | Prime Video | Crunchyroll* de *1 Dispositivo*',
+	},
 ];
 
 export const cardsInfo = cards.map((card) => {

@@ -130,34 +130,34 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 	const renderIcon = () => {
 		switch (type) {
 			case 'access':
-				return <FontAwesomeIcon icon={faGlobeAmericas} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faGlobeAmericas} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'account':
-				return <FontAwesomeIcon icon={faUser} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faUser} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'audio':
-				return <FontAwesomeIcon icon={faSpotify} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faSpotify} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'android':
-				return <FontAwesomeIcon icon={faAndroid} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faAndroid} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'credentials':
-				return <FontAwesomeIcon icon={faUserLock} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faUserLock} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'device':
-				return <FontAwesomeIcon icon={faUser} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faUser} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'devices':
 				return (
 					<div className='flex flex-wrap gap-2 items-center justify-center'>
-						<FontAwesomeIcon icon={faMobile} className='text-xl 2xl:text-2xl' />
-						<FontAwesomeIcon icon={faLaptop} className='text-xl 2xl:text-2xl' />
-						<FontAwesomeIcon icon={faTv} className='text-xl 2xl:text-2xl' />
-						<FontAwesomeIcon icon={faTablet} className='text-xl 2xl:text-2xl' />
+						<FontAwesomeIcon icon={faMobile} className=' text-white text-xl 2xl:text-2xl' />
+						<FontAwesomeIcon icon={faLaptop} className=' text-white text-xl 2xl:text-2xl' />
+						<FontAwesomeIcon icon={faTv} className=' text-white text-xl 2xl:text-2xl' />
+						<FontAwesomeIcon icon={faTablet} className=' text-white text-xl 2xl:text-2xl' />
 					</div>
 				);
 			case 'download':
-				return <FontAwesomeIcon icon={faCircleDown} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faCircleDown} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'duration':
-				return <FontAwesomeIcon icon={faClock} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faClock} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'live':
-				return <Live className='w-20 h-8 md:h-10' />;
+				return <Live className='w-20 h-8 md:h-10 text-white' />;
 			case 'multiple':
-				return <FontAwesomeIcon icon={faUsers} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faUsers} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'noads':
 				return (
 					<>
@@ -166,20 +166,20 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 					</>
 				);
 			case 'password':
-				return <LockPassword className='w-20 h-8 md:h-10' />;
+				return <LockPassword className='text-white w-20 h-8 md:h-10 ' />;
 			case 'profile':
-				return <FontAwesomeIcon icon={faUser} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faUser} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'quality':
-				return <QualityIcon className='w-20 h-8 md:h-10' />;
+				return <QualityIcon className='text-white w-20 h-8 md:h-10' />;
 			case 'qualitys':
 				return (
 					<div className='flex items-center'>
-						<QualityIcon className='w-10 h-8 md:h-10' />
-						<QualityHD className='w-10 h-8 md:h-10' />
+						<QualityIcon className='text-white w-10 h-8 md:h-10' />
+						<QualityHD className='text-white w-10 h-8 md:h-10' />
 					</div>
 				);
 			case 'renewable':
-				return <FontAwesomeIcon icon={faRotateBackward} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faRotateBackward} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'norenewable':
 				return (
 					<span className='text-white size-8 absolute text-center flex items-center justify-center font-bold border-4 border-white rounded-full opacity-80'>
@@ -187,11 +187,11 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 					</span>
 				);
 			case 'template':
-				return <TemplateIcon className='w-20 h-8 md:h-10' />;
+				return <TemplateIcon className='text-white w-20 h-8 md:h-10' />;
 			case 'warranty':
-				return <FontAwesomeIcon icon={faCalendarCheck} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faCalendarCheck} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'wifi':
-				return <FontAwesomeIcon icon={faWifi3} className='text-xl md:text-2xl 2xl:text-4xl' />;
+				return <FontAwesomeIcon icon={faWifi3} className='text-white text-xl md:text-2xl 2xl:text-4xl' />;
 			case 'yt':
 				return (
 					<FontAwesomeIcon
@@ -220,7 +220,7 @@ export const DetailService = ({ type, text }: DetailServiceProps) => {
 			<span className='h-10 2xl:h-14 flex items-center justify-center bg-white/30 w-full relative'>{renderIcon()}</span>
 			<div className='bg-blue-700 w-full rounded-b-lg h-[calc(100%-40px)] 2xl:h-[calc(100%-56px)]'>
 				<p
-					className={`px-2 py-2 max-xs:text-xs max-xs:tracking-wide text-base text-center h-full flex justify-center items-center ${
+					className={`px-2 text-white font-medium py-2 max-xs:text-xs max-xs:tracking-wide text-base text-center h-full flex justify-center items-center ${
 						text.length >= 20 ? 'text-xs' : ''
 					}`}>
 					{text}

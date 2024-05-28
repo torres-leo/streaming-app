@@ -30,7 +30,9 @@ const Header = () => {
 						</Link>
 
 						<Link href='/'>
-							<p className='text-lg font-bold tracking-wide uppercase pointer-events-none'>Pez Streaming</p>
+							<p className='text-lg font-bold tracking-wide uppercase pointer-events-none text-gray-200'>
+								Pez Streaming
+							</p>
 						</Link>
 					</div>
 				</div>
