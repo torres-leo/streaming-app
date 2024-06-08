@@ -943,30 +943,30 @@ const cards: Card[] = [
 		],
 		contactMessage: 'Me gustaria contratar el servicio de *Netflix* de *Cuenta completa*',
 	},
-	{
-		id: crypto.randomUUID(),
-		image: {
-			src: '/images/cards/netflix_turquia.webp',
-			alt: 'Netflix turquia',
-		},
-		title: 'Netflix Turquia - 1 mes - Cuenta Completa',
-		price: '329.4',
-		category: 'cuenta completa',
-		contactMessage: 'Me gustaria contratar el servicio de *Netflix Turquia* de *Cuenta Completa*',
-		notes: [
-			'Cuenta Netflix facturación Turquía sin geobloqueo en pausa, lista para cargar saldo y usar.',
-			'No dejarla en pausa varios días, cargarle saldo apenas adquirida.',
-			'La cuenta se entrega en correo Yopmail, para que usted mismo cambie el correo al que desee.',
-			'Se recomienda usar VPN de Turquía durante el proceso de cambio de Email para evitar fallas.',
-		],
-		steps: [
-			'Ingresar a <a href="https://www.yopmail.com" target="_blank">www.yopmail.com</a>',
-			'Colocar el correo de Yopmail suministrado.',
-			'llegará el código de verificación para cambiar correo.',
-			'En ajustes de cuenta de Netflix, presionar la opción de cambiar email.',
-			'Colocar el código de verificación y finalmente el email al que desea que la cuenta quede asociada.',
-		],
-	},
+	// {
+	// 	id: crypto.randomUUID(),
+	// 	image: {
+	// 		src: '/images/cards/netflix_turquia.webp',
+	// 		alt: 'Netflix turquia',
+	// 	},
+	// 	title: 'Netflix Turquia - 1 mes - Cuenta Completa',
+	// 	price: '329.4',
+	// 	category: 'cuenta completa',
+	// 	contactMessage: 'Me gustaria contratar el servicio de *Netflix Turquia* de *Cuenta Completa*',
+	// 	notes: [
+	// 		'Cuenta Netflix facturación Turquía sin geobloqueo en pausa, lista para cargar saldo y usar.',
+	// 		'No dejarla en pausa varios días, cargarle saldo apenas adquirida.',
+	// 		'La cuenta se entrega en correo Yopmail, para que usted mismo cambie el correo al que desee.',
+	// 		'Se recomienda usar VPN de Turquía durante el proceso de cambio de Email para evitar fallas.',
+	// 	],
+	// 	steps: [
+	// 		'Ingresar a <a href="https://www.yopmail.com" target="_blank">www.yopmail.com</a>',
+	// 		'Colocar el correo de Yopmail suministrado.',
+	// 		'llegará el código de verificación para cambiar correo.',
+	// 		'En ajustes de cuenta de Netflix, presionar la opción de cambiar email.',
+	// 		'Colocar el código de verificación y finalmente el email al que desea que la cuenta quede asociada.',
+	// 	],
+	// },
 	{
 		id: crypto.randomUUID(),
 		image: {
