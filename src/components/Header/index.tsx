@@ -16,22 +16,9 @@ const Header = () => {
 			<div className='main-container'>
 				<div className='header-wrapper pt-2 pb-2'>
 					<div className='flex gap-x-4 items-center'>
-						<Link
-							href='/'
-							className='border-[2px] border-yellow-300/50 hover:border-[2px] hover:border-yellow-300/70 rounded-full inline-block transition hover:scale-105'>
-							<Image
-								src='/images/pez-streaming.webp'
-								alt='logo'
-								className='size-10 block bg-cover object-cover rounded-full'
-								quality={70}
-								width={100}
-								height={100}
-							/>
-						</Link>
-
 						<Link href='/'>
 							<p className='text-lg font-bold tracking-wide uppercase pointer-events-none text-gray-200'>
-								Pez Streaming
+								Streaming App
 							</p>
 						</Link>
 					</div>

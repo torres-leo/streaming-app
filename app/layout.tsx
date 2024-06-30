@@ -11,7 +11,7 @@ const openSans = Open_Sans({ subsets: ['latin'] });
 export const runtime = 'edge';
 
 export const metadata: Metadata = {
-	title: 'Pez Streaming',
+	title: 'Streaming App',
 	description:
 		'Adquiere los mejores servicios de streaming al mejor precio y disfruta de una gran variedad de peliculas, series, canales en vivo y mucho más!',
 };

@@ -19,8 +19,8 @@ export function generateMetadata({ params }: CardServiceProps) {
 	const card = cardsInfo.find((card) => card.slug === service);
 
 	return {
-		title: `Pez Straming - ${card?.title ?? 'Not Found'}`,
-		description: `Contrata tu servicio de ${card?.title ?? ''} en Pez Streaming`,
+		title: `Straming App - ${card?.title ?? 'Not Found'}`,
+		description: `Contrata tu servicio de ${card?.title ?? ''} en Streaming App`,
 	};
 }
 
